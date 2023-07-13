@@ -470,11 +470,11 @@ Error generating stack: `+o.message+`
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  background-image: url("/src/images/how-it-works/advantages/advantages-L.svg");
+  background-image: url("images/how-it-works/advantages/advantages-L.svg");
 
   @media (max-width: ${M}) {
     min-height: 212.58vw;
-    background-image: url("/src/images/how-it-works/advantages/advantages-S.svg");
+    background-image: url("images/how-it-works/advantages/advantages-S.svg");
     flex-direction: column;
   }
 `,k1=$.div`
@@ -528,18 +528,18 @@ Error generating stack: `+o.message+`
     font-size: calc(18vw / 5.08);
     line-height: 1.5;
   }
-`,T1=({children:e,...t})=>k.jsx(P1,{...t,children:e}),{darkGrayColor:Kc}=We,dt={title:"How it work",text:'"Brief description of how the app works"',stepOne:{subtitle:"Send invoice",text:"Merchant issues an invoice in their local currency"},stepTwo:{subtitle:"Payment",text:"The user pays in the currency in which it is convenient for him. We take care of all the difficulties with overpayments and underpayments."},stepThree:{subtitle:"Broadcast",text:"Conversion and withdrawal, the merchant at any time withdraws his funds to his wallet in the currency in which he is comfortable."},advantages:[{index:"1",subtitle:"EU Regulated",text:"is fully regulated underEstionian License.",image:"/src/assets/images/how-it-works/advantages/advantages-first-icon.svg"},{index:"2",subtitle:"All types of crypto",text:"Coins, StableCoins, Tokens are supported.",image:"/src/assets/images/how-it-works/advantages/advantages-second-icon.svg"},{index:"3",subtitle:"Major Blockchains",text:"Bitcoin, Ethereum, Solana, BinanceSmart Chain, Ripple, etc.",image:"/src/assets/images/how-it-works/advantages/advantages-third-icon.svg"},{index:"4",subtitle:"Free of Charge",text:"All outgoing transactions, transfers and payouts in crypto are free of charge.",image:"/src/assets/images/how-it-works/advantages/advantages-fourth-icon.svg"}]},$1=$.div`
+`,T1=({children:e,...t})=>k.jsx(P1,{...t,children:e}),{darkGrayColor:Kc}=We,dt={title:"How it work",text:'"Brief description of how the app works"',stepOne:{subtitle:"Send invoice",text:"Merchant issues an invoice in their local currency"},stepTwo:{subtitle:"Payment",text:"The user pays in the currency in which it is convenient for him. We take care of all the difficulties with overpayments and underpayments."},stepThree:{subtitle:"Broadcast",text:"Conversion and withdrawal, the merchant at any time withdraws his funds to his wallet in the currency in which he is comfortable."},advantages:[{index:"1",subtitle:"EU Regulated",text:"is fully regulated underEstionian License.",image:"images/how-it-works/advantages/advantages-first-icon.svg"},{index:"2",subtitle:"All types of crypto",text:"Coins, StableCoins, Tokens are supported.",image:"images/how-it-works/advantages/advantages-second-icon.svg"},{index:"3",subtitle:"Major Blockchains",text:"Bitcoin, Ethereum, Solana, BinanceSmart Chain, Ripple, etc.",image:"images/how-it-works/advantages/advantages-third-icon.svg"},{index:"4",subtitle:"Free of Charge",text:"All outgoing transactions, transfers and payouts in crypto are free of charge.",image:"images/how-it-works/advantages/advantages-fourth-icon.svg"}]},$1=$.div`
   position: relative;
   margin: 0 auto 2vw;
   ${Np};
   width: 93.54vw;
   height: auto;
-  background-image: url("/src/images/how-it-works/steps-L.svg");
+  background-image: url("images/how-it-works/steps-L.svg");
 
   @media (max-width: ${M}) {
     padding-top: 16.7vw;
     width: 90.55vw;
-    background-image: url("/src/images/how-it-works/steps-S.svg");
+    background-image: url("images/how-it-works/steps-S.svg");
   }
 `,O1=$(T1)`
   margin: 0.7vw 0 1.71vw;
@@ -570,7 +570,7 @@ Error generating stack: `+o.message+`
   }
 `,z1=$.div`
   ${Ip};
-  background-image: url("/src/images/how-it-works/left-line-L.svg");
+  background-image: url("images/how-it-works/left-line-L.svg");
   top: 4vw;
   left: 14.5vw;
   width: 20.83vw;
@@ -580,11 +580,11 @@ Error generating stack: `+o.message+`
     top: 25vw;
     left: 7vw;
     height: calc(100% - 20.86vw + 15vw);
-    background-image: url("/src/images/how-it-works/left-line-S.svg");
+    background-image: url("images/how-it-works/left-line-S.svg");
   }
 `,L1=$.div`
   ${Ip};
-  background-image: url("/src/images/how-it-works/right-line-L.svg");
+  background-image: url("images/how-it-works/right-line-L.svg");
   top: 4vw;
   right: -15vw;
   width: 19vw;
@@ -594,14 +594,14 @@ Error generating stack: `+o.message+`
     top: 30vw;
     right: 3vw;
     height: calc(100% - 24.56vw + 15vw);
-    background-image: url("/src/images/how-it-works/right-line-S.svg");
+    background-image: url("images/how-it-works/right-line-S.svg");
   }
 `,N1=$.div`
   ${Ka};
   margin-bottom: 2vw;
   width: 11.3vw;
   height: 11.3vw;
-  background-image: url("/src/images/how-it-works/send-invoice.svg");
+  background-image: url("images/how-it-works/send-invoice.svg");
   ${Lp};
   background-size: 7.4vw 7.4vw;
 
@@ -609,14 +609,14 @@ Error generating stack: `+o.message+`
     margin-top: 2vw;
     width: 20.86vw;
     height: 20.86vw;
-    background-image: url("/src/images/how-it-works/send-invoice.svg");
+    background-image: url("images/how-it-works/send-invoice.svg");
     ${Xt}
   }
 `,I1=$.div`
   ${Ka};
   width: 11.3vw;
   height: 11.3vw;
-  background-image: url("/src/images/how-it-works/payment.jpg");
+  background-image: url("images/how-it-works/payment.jpg");
   ${Lp};
   background-size: 8.6vw 8.6vw;
 
@@ -624,7 +624,7 @@ Error generating stack: `+o.message+`
     margin-top: 4vw;
     width: 24.56vw;
     height: 24.56vw;
-    background-image: url("/src/images/how-it-works/payment.jpg");
+    background-image: url("images/how-it-works/payment.jpg");
     ${Xt};
   }
 }
@@ -634,14 +634,14 @@ Error generating stack: `+o.message+`
   left: 0;
   width: 11.3vw;
   height: 11.3vw;
-  background-image: url("/src/images/how-it-works/brodcast.jpg");
+  background-image: url("images/how-it-works/brodcast.jpg");
   ${Xt};
 
   @media (max-width: ${M}) {
     margin: 4vw 0 4vw;
     width: 32.08vw;
     height: 32.08vw;
-    background-image: url("/src/images/how-it-works/brodcast.jpg");
+    background-image: url("images/how-it-works/brodcast.jpg");
   }
 `,M1=()=>k.jsxs(k.Fragment,{children:[k.jsxs($1,{children:[k.jsx(C1,{color:Kc,children:dt.title}),k.jsx(O1,{color:Kc,children:dt.text}),k.jsxs(j1,{children:[k.jsxs(Xc,{children:[k.jsx(z1,{}),k.jsx(Bl,{svg:k.jsx(N1,{}),subtitle:dt.stepOne.subtitle,text:dt.stepOne.text})]}),k.jsxs(Xc,{children:[k.jsx(L1,{}),k.jsx(Bl,{svg:k.jsx(I1,{}),subtitle:dt.stepTwo.subtitle,text:dt.stepTwo.text})]}),k.jsx(Bl,{svg:k.jsx(R1,{}),subtitle:dt.stepThree.subtitle,text:dt.stepThree.text})]})]}),k.jsx(_1,{advantages:dt.advantages})]}),D1=$.footer`
   display: flex;
