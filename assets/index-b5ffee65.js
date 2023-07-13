@@ -129,12 +129,12 @@ Error generating stack: `+o.message+`
   width: 100%;
   height: auto;
   min-height: 63.47vw;
-  background-image: url('images/main-screen/screen-L.svg');
+  background-image: url("images/main-screen/screen-L.svg");
 
   @media (max-width: ${qe}) {
     width: 100vw;
     min-height: 209.25vw;
-    background-image: url("/images/main-screen/screen-L.svg");
+    background-image: url("images/main-screen/screen-S.svg");
   }
 `,Dm=Qe.div`
   max-width: 50.76vw;
@@ -229,7 +229,7 @@ Error generating stack: `+o.message+`
   ${Rm};
   width: 1.18vw;
   height: 1.04vw;
-  background-image: url("/src/images/common/play-icon.svg");
+  background-image: url("images/common/play-icon.svg");
 
   @media (max-width: ${qe}) {
     width: 3.35vw;
