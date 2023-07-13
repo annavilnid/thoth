@@ -129,12 +129,12 @@ Error generating stack: `+o.message+`
   width: 100%;
   height: auto;
   min-height: 63.47vw;
-  background-image: url("/images/main-screen/screen-L.svg");
+  background-image: url("/src/images/main-screen/screen-L.svg");
 
   @media (max-width: ${$}) {
     width: 100vw;
     min-height: 209.25vw;
-    background-image: url("/images/main-screen/screen-S.svg");
+    background-image: url("/src/images/main-screen/screen-S.svg");
   }
 `,Qw=S.div`
   max-width: 50.76vw;
@@ -229,7 +229,7 @@ Error generating stack: `+o.message+`
   ${Ct};
   width: 1.18vw;
   height: 1.04vw;
-  background-image: url("/images/common/play-icon.svg");
+  background-image: url("/src/images/common/play-icon.svg");
 
   @media (max-width: ${$}) {
     width: 3.35vw;
@@ -239,7 +239,7 @@ Error generating stack: `+o.message+`
   ${Ct};
   width: 11.25vw;
   height: 2.63vw;
-  background-image: url("/images/logo.svg");
+  background-image: url("/src/images/logo.svg");
 
   @media (max-width: ${$}) {
     width: 25vw;
@@ -327,7 +327,7 @@ Error generating stack: `+o.message+`
   ${Ct};
   width: 6.5vw;
   height: 3.77vw;
-  background-image: url("/images/burger-icon.svg");
+  background-image: url("/src/images/burger-icon.svg");
 `,dx=S.span`
   color: ${J.whiteColor};
   ${$c};
@@ -468,11 +468,11 @@ Error generating stack: `+o.message+`
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  background-image: url("/images/how-it-works/advantages/advantages-L.svg");
+  background-image: url("/src/images/how-it-works/advantages/advantages-L.svg");
 
   @media (max-width: ${$}) {
     min-height: 212.58vw;
-    background-image: url("/images/how-it-works/advantages/advantages-S.svg");
+    background-image: url("/src/images/how-it-works/advantages/advantages-S.svg");
     flex-direction: column;
   }
 `,$x=S.div`
@@ -532,12 +532,12 @@ Error generating stack: `+o.message+`
   ${Al};
   width: 93.54vw;
   height: auto;
-  background-image: url("/images/how-it-works/steps-L.svg");
+  background-image: url("/src/images/how-it-works/steps-L.svg");
 
   @media (max-width: ${$}) {
     padding-top: 16.7vw;
     width: 90.55vw;
-    background-image: url("/images/how-it-works/steps-S.svg");
+    background-image: url("/src/images/how-it-works/steps-S.svg");
   }
 `,zx=S(Yl)`
   margin: 0.7vw 0 1.71vw;
@@ -568,7 +568,7 @@ Error generating stack: `+o.message+`
   }
 `,Rx=S.div`
   ${rm};
-  background-image: url("/images/how-it-works/left-line-L.svg");
+  background-image: url("/src/images/how-it-works/left-line-L.svg");
   top: 4vw;
   left: 14.5vw;
   width: 20.83vw;
@@ -578,11 +578,11 @@ Error generating stack: `+o.message+`
     top: 25vw;
     left: 7vw;
     height: calc(100% - 20.86vw + 15vw);
-    background-image: url("/images/how-it-works/left-line-S.svg");
+    background-image: url("/src/images/how-it-works/left-line-S.svg");
   }
 `,Mx=S.div`
   ${rm};
-  background-image: url("/images/how-it-works/right-line-L.svg");
+  background-image: url("/src/images/how-it-works/right-line-L.svg");
   top: 4vw;
   right: -15vw;
   width: 19vw;
@@ -592,14 +592,14 @@ Error generating stack: `+o.message+`
     top: 30vw;
     right: 3vw;
     height: calc(100% - 24.56vw + 15vw);
-    background-image: url("/images/how-it-works/right-line-S.svg");
+    background-image: url("/src/images/how-it-works/right-line-S.svg");
   }
 `,Ix=S.div`
   ${Ec};
   margin-bottom: 2vw;
   width: 11.3vw;
   height: 11.3vw;
-  background-image: url("/images/how-it-works/send-invoice.svg");
+  background-image: url("/src/images/how-it-works/send-invoice.svg");
   ${nm};
   background-size: 7.4vw 7.4vw;
 
@@ -607,14 +607,14 @@ Error generating stack: `+o.message+`
     margin-top: 2vw;
     width: 20.86vw;
     height: 20.86vw;
-    background-image: url("/images/how-it-works/send-invoice.svg");
+    background-image: url("/src/images/how-it-works/send-invoice.svg");
     ${Ct}
   }
 `,Nx=S.div`
   ${Ec};
   width: 11.3vw;
   height: 11.3vw;
-  background-image: url("/images/how-it-works/payment.jpg");
+  background-image: url("/src/images/how-it-works/payment.jpg");
   ${nm};
   background-size: 8.6vw 8.6vw;
 
@@ -622,7 +622,7 @@ Error generating stack: `+o.message+`
     margin-top: 4vw;
     width: 24.56vw;
     height: 24.56vw;
-    background-image: url("/images/how-it-works/payment.jpg");
+    background-image: url("/src/images/how-it-works/payment.jpg");
     ${Ct};
   }
 }
@@ -632,14 +632,14 @@ Error generating stack: `+o.message+`
   left: 0;
   width: 11.3vw;
   height: 11.3vw;
-  background-image: url("/images/how-it-works/brodcast.jpg");
+  background-image: url("/src/images/how-it-works/brodcast.jpg");
   ${Ct};
 
   @media (max-width: ${$}) {
     margin: 4vw 0 4vw;
     width: 32.08vw;
     height: 32.08vw;
-    background-image: url("/images/how-it-works/brodcast.jpg");
+    background-image: url("/src/images/how-it-works/brodcast.jpg");
   }
 `,Ax=()=>d.jsxs(d.Fragment,{children:[d.jsxs(jx,{children:[d.jsx($t,{color:Mf,children:bt.title}),d.jsx(zx,{color:Mf,children:bt.text}),d.jsxs(Lx,{children:[d.jsxs(If,{children:[d.jsx(Rx,{}),d.jsx(Aa,{svg:d.jsx(Ix,{}),subtitle:bt.stepOne.subtitle,text:bt.stepOne.text})]}),d.jsxs(If,{children:[d.jsx(Mx,{}),d.jsx(Aa,{svg:d.jsx(Nx,{}),subtitle:bt.stepTwo.subtitle,text:bt.stepTwo.text})]}),d.jsx(Aa,{svg:d.jsx(Dx,{}),subtitle:bt.stepThree.subtitle,text:bt.stepThree.text})]})]}),d.jsx(Px,{advantages:bt.advantages})]}),{darkColor:Hx,whiteColor:zm,darkGrayColor:Fx,lightGreenColor:Bx,greenColor:Wx}=J,au={title:"Mobile Wallet",text:"A solution enabling businesses to accept crypto payments in all major coins and exchange it all into Fiat, Coins or StableCoins.",button:"Download"},Ux=S.section`
   position: relative;
@@ -665,12 +665,12 @@ Error generating stack: `+o.message+`
   width: 100%;
   height: 100%;
   ${Pr};
-  background-image: url("/images/products-and-service/mobile-wallet-L.svg");
+  background-image: url("/src/images/products-and-service/mobile-wallet-L.svg");
 
   @media (max-width: ${$}) {
     box-sizing: border-box;
     padding: 0 9vw 4.14vw;
-    background-image: url("/images/products-and-service/mobile-wallet-S.svg");
+    background-image: url("/src/images/products-and-service/mobile-wallet-S.svg");
     justify-content: end;
     align-items: start;
   }
@@ -718,7 +718,7 @@ Error generating stack: `+o.message+`
   ${Ct};
   width: 0.97vw;
   height: 1.53vw;
-  background-image: url("/images/products-and-service/download-icon.svg");
+  background-image: url("/src/images/products-and-service/download-icon.svg");
 
   @media (max-width: ${$}) {
     width: 2.39vw;
@@ -735,7 +735,7 @@ Error generating stack: `+o.message+`
   flex-direction: column;
   align-items: start;
   justify-content: center;
-  background-image: url("/images/products-and-service/avaible-currencies.svg");
+  background-image: url("/src/images/products-and-service/avaible-currencies.svg");
 
   @media (max-width: ${$}) {
     padding: 22vw 0 20.27vw 4.93vw;
@@ -839,7 +839,7 @@ Error generating stack: `+o.message+`
   align-items: stretch;
   width: 82.25vw;
   ${Al};
-  background-image: url("/images/products-and-service/item-L.svg");
+  background-image: url("/src/images/products-and-service/item-L.svg");
   border-radius: 30px;
 
   @media (max-width: ${$}) {
@@ -849,7 +849,7 @@ Error generating stack: `+o.message+`
     flex-direction: column;
     width: 82.41vw;
     height: 100%;
-    background-image: url("/images/products-and-service/item-S.svg");
+    background-image: url("/src/images/products-and-service/item-S.svg");
   }
 `,hk=S.p`
   ${Pc};
@@ -892,7 +892,7 @@ Error generating stack: `+o.message+`
     position: absolute;
     width: 0.83vw;
     height: 1.04vw;
-    background-image: url("/images/products-and-service/play.svg");
+    background-image: url("/src/images/products-and-service/play.svg");
     background-repeat: no-repeat;
     background-size: contain;
     left: calc(100%);
@@ -980,7 +980,7 @@ Error generating stack: `+o.message+`
   width: 37%;
   ${Pr};
   height: auto;
-  background-image: url("/images/products-and-service/video.svg");
+  background-image: url("/src/images/products-and-service/video.svg");
 
   @media (max-width: ${$}) {
     width: 100%;
@@ -1060,13 +1060,13 @@ Error generating stack: `+o.message+`
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url("/images/products-and-service/description-L.svg");
+  background-image: url("/src/images/products-and-service/description-L.svg");
 
   @media (max-width: ${$}) {
     height: calc(970vw / 5.08);
     padding: 14.93vw 0;
     flex-direction: column;
-    background-image: url("/images/products-and-service/description-S.svg");
+    background-image: url("/src/images/products-and-service/description-S.svg");
   }
 `,P_=S($t)`
   width: 80%;
@@ -1329,7 +1329,7 @@ Error generating stack: `+o.message+`
   ${Ct};
   width: 1.04vw;
   height: 1.18vw;
-  background-image: url("/images/common/play-icon.svg");
+  background-image: url("/src/images/common/play-icon.svg");
 
   @media (max-width: ${$}) {
     width: 3.34vw;
@@ -1437,7 +1437,7 @@ Error generating stack: `+o.message+`
   height: 100%;
 `,SC=S.div`
   height: 100%;
-  background-image: url("/images/use-cases-of-our-products/slide-S.svg");
+  background-image: url("/src/images/use-cases-of-our-products/slide-S.svg");
   background-repeat: no-repeat;
   background-size: cover;
 `,xC=({onClick:e})=>d.jsx(yC,{type:"button",className:"arrow next",onClick:e,children:d.jsx(wC,{src:gC,alt:"Next"})}),kC=({slides:e})=>{const t={dots:!1,arrows:!0,infinite:!0,slidesToShow:1,slidesToScroll:1,swipe:!1,variableWidth:!0,centerMode:!1,prevArrow:d.jsx(d.Fragment,{}),nextArrow:d.jsx(xC,{})},r=Object.keys(e).flatMap(i=>e[i].content.map(o=>({button:e[i].button,image:o.image,title:o.title,text:o.text})));return d.jsx(SC,{children:d.jsx(ta,{...t,children:r.map((i,o)=>d.jsx(hg,{button:i.button,image:i.image,title:i.title,text:i.text},o))})})},{whiteColor:bn,greenColor:_C}=J,CC=S.div`
@@ -1546,10 +1546,10 @@ Error generating stack: `+o.message+`
   min-height: calc(1317vw / 14.4);
   box-sizing: border-box;
   width: 100%;
-  background-image: url("/images/news/news-L.svg");
+  background-image: url("/src/images/news/news-L.svg");
 
   @media (max-width: ${$}) {
-    background-image: url("/images/news/news-S.svg");
+    background-image: url("/src/images/news/news-S.svg");
     min-height: calc(1441vw / 5.08);
   }
 `,IC=S.div`
@@ -1594,7 +1594,7 @@ Error generating stack: `+o.message+`
     position: absolute;
     width: 0.83vw;
     height: 1.04vw;
-    background-image: url("/images/products-and-service/play.svg");
+    background-image: url("/src/images/products-and-service/play.svg");
     background-repeat: no-repeat;
     background-size: contain;
     left: calc(100%);
@@ -1737,7 +1737,7 @@ Error generating stack: `+o.message+`
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url("/images/use-cases-of-our-products/background-L.svg");
+  background-image: url("/src/images/use-cases-of-our-products/background-L.svg");
 
   @media (max-width: ${$}) {
     padding: 14.17vw 0 12.4vw 0;
@@ -1745,7 +1745,7 @@ Error generating stack: `+o.message+`
     min-height: 138.78vw;
     justify-content: space-between;
     flex-direction: column;
-    background-image: url("/images/use-cases-of-our-products/background-S.svg");
+    background-image: url("/src/images/use-cases-of-our-products/background-S.svg");
   }
 `,QC=S.div`
   width: 100%;
@@ -1771,7 +1771,7 @@ Error generating stack: `+o.message+`
   width: 88.47vw;
   min-height: 37.15vw;
   ${Al};
-  background-image: url("/images/use-cases-of-our-products/slide-L.svg");
+  background-image: url("/src/images/use-cases-of-our-products/slide-L.svg");
   border-radius: 30px;
 
   @media (max-width: ${$}) {
