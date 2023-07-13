@@ -129,12 +129,12 @@ Error generating stack: `+o.message+`
   width: 100%;
   height: auto;
   min-height: 63.47vw;
-  background-image: url("/images/main-screen/screen-L.svg");
+  background-image: url("./images/main-screen/screen-L.svg");
 
   @media (max-width: ${$}) {
     width: 100vw;
     min-height: 209.25vw;
-    background-image: url("/images/main-screen/screen-S.svg");
+    background-image: url("./images/main-screen/screen-S.svg");
   }
 `,Qw=S.div`
   max-width: 50.76vw;
@@ -358,7 +358,7 @@ Error generating stack: `+o.message+`
   border: 1px solid red;
 `,vx=S(Ve)`
   background-color: transparent;
-`,mx=({sections:e})=>{const t=Ft(),n=()=>{console.log("Press button burger menu")},r=()=>{console.log("Press button register")},i=()=>{console.log("Press button login")},o=d.jsx(cx,{}),l=d.jsx(Rf,{children:d.jsx(dx,{children:Lf.signUp})}),a=d.jsx(Rf,{children:d.jsx(fx,{children:Lf.signIn})});return t===null?null:d.jsxs(ax,{children:[d.jsx("p",{children:"test test"}),d.jsx(hx,{}),t&&d.jsx(Ve,{type:"button",children:o,onClick:n}),!t&&d.jsxs(d.Fragment,{children:[d.jsx(am,{type:"light"}),d.jsx("nav",{children:d.jsx(sx,{children:e.map(s=>d.jsx(ux,{children:d.jsx(bm,{to:s.id,spy:!0,smooth:!0,duration:500,children:s.title})},s.id))})}),d.jsxs("div",{children:[d.jsx(vx,{type:"button",children:l,onClick:r}),d.jsx(px,{type:"button",children:a,onClick:i})]})]})]})},{lightGrayColor:Tm}=J,gx=S.div`
+`,mx=({sections:e})=>{const t=Ft(),n=()=>{console.log("Press button burger menu")},r=()=>{console.log("Press button register")},i=()=>{console.log("Press button login")},o=d.jsx(cx,{}),l=d.jsx(Rf,{children:d.jsx(dx,{children:Lf.signUp})}),a=d.jsx(Rf,{children:d.jsx(fx,{children:Lf.signIn})});return t===null?null:d.jsxs(ax,{children:[d.jsx("p",{children:"test"}),d.jsx(hx,{}),t&&d.jsx(Ve,{type:"button",children:o,onClick:n}),!t&&d.jsxs(d.Fragment,{children:[d.jsx(am,{type:"light"}),d.jsx("nav",{children:d.jsx(sx,{children:e.map(s=>d.jsx(ux,{children:d.jsx(bm,{to:s.id,spy:!0,smooth:!0,duration:500,children:s.title})},s.id))})}),d.jsxs("div",{children:[d.jsx(vx,{type:"button",children:l,onClick:r}),d.jsx(px,{type:"button",children:a,onClick:i})]})]})]})},{lightGrayColor:Tm}=J,gx=S.div`
   position: relative;
   z-index: 1;
   max-width: 19.16vw;
