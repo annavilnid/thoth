@@ -129,7 +129,7 @@ Error generating stack: `+o.message+`
   width: 100%;
   height: auto;
   min-height: 63.47vw;
-  background-image: url("/src/assets/images/main-screen/screen-L.svg");
+  background-image: url("./assets/images/main-screen/screen-L.svg");
 
   @media (max-width: ${$}) {
     width: 100vw;
