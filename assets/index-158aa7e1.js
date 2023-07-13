@@ -129,12 +129,12 @@ Error generating stack: `+o.message+`
   width: 100%;
   height: auto;
   min-height: 63.47vw;
-  background-image: url("/thoth/images/main-screen/screen-L.svg");
+  background-image: url("/images/main-screen/screen-L.svg");
 
   @media (max-width: ${qe}) {
     width: 100vw;
     min-height: 209.25vw;
-    background-image: url("/thoth/images/main-screen/screen-L.svg");
+    background-image: url("/images/main-screen/screen-L.svg");
   }
 `,Dm=Qe.div`
   max-width: 50.76vw;
