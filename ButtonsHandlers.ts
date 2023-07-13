@@ -16,3 +16,7 @@ export const SignIn = () => {
   //TODO актуализировть событие
   console.log("Press button login");
 };
+export const Download = () => {
+  //TODO актуализировть событие
+  console.log("Press download button");
+};
