@@ -124,7 +124,7 @@ Error generating stack: `+o.message+`
   @media (max-width: ${O}) {
     font-size: calc(25vw / 5.08);
   }
-`,Ft=()=>{const[e,t]=Z.useState(null);return Z.useEffect(()=>{const n=()=>{const r=window.innerWidth;console.log(r),t(r<=parseInt(O))};return n(),window.addEventListener("resize",n),()=>{window.removeEventListener("resize",n)}},[]),e};function Ve({className:e,children:t,onClick:n,type:r}){return d.jsx(Uw,{type:r,className:e,onClick:n,children:t})}const Vw=()=>{console.log("Press button open account")},Qw=()=>{console.log("Press button burger menu")},Gw=()=>{console.log("Press button register")},Yw=()=>{console.log("Press button login")},qw=()=>{console.log("Press download button")},{greenColor:om,lightGreenColor:Xw,whiteColor:lm}=he,lo={title:"Accept Bitcoin Payments",text:"Send, Store, Exchange and Accept Cryptocurrency.",button:"Open Account"},Kw=S.section`
+`,Ft=()=>{const[e,t]=Z.useState(null);return Z.useEffect(()=>{const n=()=>{const r=window.innerWidth;t(r<=parseInt(O))};return n(),window.addEventListener("resize",n),()=>{window.removeEventListener("resize",n)}},[]),e};function Ve({className:e,children:t,onClick:n,type:r}){return d.jsx(Uw,{type:r,className:e,onClick:n,children:t})}const Vw=()=>{console.log("Press button open account")},Qw=()=>{console.log("Press button burger menu")},Gw=()=>{console.log("Press button register")},Yw=()=>{console.log("Press button login")},qw=()=>{console.log("Press download button")},{greenColor:om,lightGreenColor:Xw,whiteColor:lm}=he,lo={title:"Accept Bitcoin Payments",text:"Send, Store, Exchange and Accept Cryptocurrency.",button:"Open Account"},Kw=S.section`
   ${Al};
   width: 100%;
   height: auto;
