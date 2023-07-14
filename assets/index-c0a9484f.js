@@ -366,7 +366,7 @@ Error generating stack: `+o.message+`
     ${xx} 100%
   );
 `,bx=S(um)`
-  width: 20vw;
+  width: 21vw;
   display: flex;
   position: relative;
 `,Tx=S(Ve)`
