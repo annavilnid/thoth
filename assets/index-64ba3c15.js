@@ -1018,14 +1018,12 @@ Error generating stack: `+o.message+`
   overflow-y: scroll;
 
   &::-webkit-scrollbar {
-    width: 10px;
+    width: 20px;
     background-color: #f8bbd0;
-
   }
 
   &::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 6px #f06292;
-    //border-radius: 10px;
     background-color: #f8bbd0;
 
     // Add Border on Track
@@ -1036,7 +1034,7 @@ Error generating stack: `+o.message+`
 
   &::-webkit-scrollbar-thumb {
     border-radius: 20px;
-    -webkit-box-shadow: inset 0 0px #ad1457;
+    -webkit-box-shadow: inset 0 0 #ad1457;
     background-color: #e91e63;
 
   }
