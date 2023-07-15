@@ -1017,6 +1017,30 @@ Error generating stack: `+o.message+`
   height: 40vw;
   overflow-y: scroll;
 
+  &::-webkit-scrollbar {
+    width: 10px;
+    background-color: #f8bbd0;
+
+  }
+
+  &::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px #f06292;
+    //border-radius: 10px;
+    background-color: #f8bbd0;
+
+    // Add Border on Track
+    border-left: 4px solid white;
+    border-right: 4px solid white;
+
+  }
+
+  &::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    -webkit-box-shadow: inset 0 0px #ad1457;
+    background-color: #e91e63;
+
+  }
+
   @media (max-width: ${O}) {
     height: 125vw;
   }
