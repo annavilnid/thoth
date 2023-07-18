@@ -995,7 +995,7 @@ Error generating stack: `+o.message+`
   }
 `,N_=S.div`
   display: flex;
-  padding: 2vw 1vw;
+  padding: 2vw 2.5vw;
   place-items: center;
   position: absolute;
   top: 0;
