@@ -991,23 +991,35 @@ Error generating stack: `+o.message+`
   }
 `,eC=b.div`
   position: absolute;
-  top: 2.5vw;
+  top: 2.2vw;
   right: 2.75vw;
-  bottom: 2.5vw;
+  bottom: 2.2vw;
   width: 3px;
   background-color: ${sy};
+
+  @media (max-width: ${_}) {
+    top: 6vw;
+    bottom: 6vw;
+    right: 3.75vw;
+  }
 `,tC=b.div`
   position: absolute;
-  top: 2.5vw;
-  right: 2.6vw; /* Центрируем бегунок по горизонтали */
-  transform: translateX(2.6vw); /* Центрируем бегунок по горизонтали */
+  top: 2.2vw;
+  right: calc(2.75vw - 4px); /* Центрируем бегунок по горизонтали */
+  transform: translateX(2.75vw - 4px); /* Центрируем бегунок по горизонтали */
   background-color: ${sy};
   width: 11px;
-  height: 10%;
+  height: 7%;
   min-height: 30px;
   border-radius: 5px;
   cursor: grab;
   touch-action: none;
+
+  @media (max-width: ${_}) {
+    top: 6vw;
+    right: calc(3.75vw - 4px); /* Центрируем бегунок по горизонтали */
+    transform: translateX(3.75vw - 4px); /* Центрируем бегунок по горизонтали */
+  }
 `,nC=({children:e})=>{var v,S;const t=U.useRef(null),n=U.useRef(null),r=U.useRef(null),[i,o]=U.useState(!1),[a,s]=U.useState(0),l=U.useCallback($=>{$.preventDefault(),o(!0)},[]),u=U.useCallback(()=>{o(!1)},[]),c=U.useCallback($=>{if(i&&t.current&&r.current&&n.current){const{clientHeight:g,scrollHeight:p}=t.current,{clientHeight:m}=n.current,w=p-g,k=m-r.current.clientHeight,O=($.clientY-n.current.getBoundingClientRect().top)/k*w,E=Math.max(0,Math.min((a+O)/w,1));s(E),t.current.scrollTop=E*w}},[i,a]),d=U.useCallback($=>{o(!0)},[]),f=U.useCallback($=>{if(i&&t.current&&r.current&&n.current){const{clientHeight:g,scrollHeight:p}=t.current,{clientHeight:m}=n.current,w=p-g,k=m-r.current.clientHeight,O=($.touches[0].clientY-n.current.getBoundingClientRect().top)/k*w,E=Math.max(0,Math.min((a+O)/w,1));s(E),t.current.scrollTop=E*w}},[i,a]),y=U.useCallback(()=>{o(!1)},[]);return U.useEffect(()=>(i?(document.addEventListener("mousemove",c),document.addEventListener("mouseup",u),document.addEventListener("touchmove",f),document.addEventListener("touchend",y)):(document.removeEventListener("mousemove",c),document.removeEventListener("mouseup",u),document.removeEventListener("touchmove",f),document.removeEventListener("touchend",y)),()=>{document.removeEventListener("mousemove",c),document.removeEventListener("mouseup",u),document.removeEventListener("touchmove",f),document.removeEventListener("touchend",y)}),[i,c,u,f,y]),U.useEffect(()=>{var g;const $=()=>{if(t.current){const{scrollTop:p,scrollHeight:m,clientHeight:w}=t.current,k=m-w,x=p/k;s(x)}};return(g=t.current)==null||g.addEventListener("scroll",$),()=>{var p;return(p=t.current)==null?void 0:p.removeEventListener("scroll",$)}},[]),h.jsxs(JO,{children:[h.jsx(ZO,{ref:t,children:e}),h.jsx(eC,{ref:n}),h.jsx(tC,{ref:r,onMouseDown:l,onTouchStart:d,style:{cursor:i?"grabbing":"grab",transform:`translateY(${a*(((v=n.current)==null?void 0:v.clientHeight)-((S=r.current)==null?void 0:S.clientHeight))}px)`}})]})},{darkColor:Vu}=ge,Oo={title:"Video",text:"Product Description THOTH",movies:[{id:"1",title:"Video title 1",content:"Slide 1"},{id:"2",title:"Video title 2",content:"Slide 2"},{id:"3",title:"Video title 3",content:"Slide 3"},{id:"4",title:"Video title 4",content:"Slide 4"},{id:"5",title:"Video title 5",content:"Slide 5"}]},rC=b.section`
   margin: calc(50vw / 14.4);
   display: flex;

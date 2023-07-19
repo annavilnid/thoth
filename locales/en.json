@@ -3,8 +3,8 @@
   "buttonText": "Switch language",
 
   "mainScreen": {
-    "button": "Switch Language",
-    "title": "Welcome to Our Website!",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    "button": "Open Account",
+    "title": "Accept Bitcoin Payments",
+    "text": "Send, Store, Exchange and Accept Cryptocurrency."
   }
 }
