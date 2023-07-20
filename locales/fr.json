@@ -3,8 +3,8 @@
   "buttonText": "Changer de langue",
 
   "mainScreen": {
-    "button": "Changer de langue",
-    "title": "Bienvenue sur notre site web !",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    "button": "Ouvrir un compte",
+    "title": "Acceptez les paiements en Bitcoin",
+    "text": "Envoyez, stockez, échangez et acceptez les cryptomonnaies."
   }
 }
