@@ -734,7 +734,7 @@ Error generating stack: `+o.message+`
   height: 2.22vw;
   border-radius: 0;
   background-image: url("images/header/language-icon-gray.svg");
-`,j_=({sections:e,mainScreenRef:t})=>{const n=Gt(),[r,i]=W.useState(null),[o,a]=W.useState(null),l=()=>{i(!r),a(!1)},s=()=>{a(!o)};return n===null?null:P.jsxs(T_,{children:[P.jsx(R_,{color:"transparent"}),!n&&P.jsxs(P.Fragment,{children:[P.jsx(od,{type:"light"}),P.jsx(dw,{sections:e}),P.jsx(Bv,{}),P.jsx(L_,{type:"button",onClick:l})]}),P.jsx(k_,{sections:e,isBurgerMenuOpen:o,burgerMenuHandler:s,languagesHandler:l,mainScreenRef:t,language:bh.text,menu:C_.text}),P.jsx(sO,{isLanguagesOpen:r,languagesHandler:l,mainScreenRef:t,language:bh.text}),n&&P.jsx($_,{type:"button",onClick:s})]})},{lightGrayColor:pw}=ve,D_=N.div`
+`,j_=({sections:e,mainScreenRef:t})=>{const n=Gt(),[r,i]=W.useState(null),[o,a]=W.useState(null);W.useEffect(()=>{const f=document.querySelector("body");f&&(r||o?f.style.overflow="hidden":f.style.overflow="auto")},[r,o]);const l=()=>{i(!r),a(!1)},s=()=>{a(!o)};return n===null?null:P.jsxs(T_,{children:[P.jsx(R_,{color:"transparent"}),!n&&P.jsxs(P.Fragment,{children:[P.jsx(od,{type:"light"}),P.jsx(dw,{sections:e}),P.jsx(Bv,{}),P.jsx(L_,{type:"button",onClick:l})]}),P.jsx(k_,{sections:e,isBurgerMenuOpen:o,burgerMenuHandler:s,languagesHandler:l,mainScreenRef:t,language:bh.text,menu:C_.text}),P.jsx(sO,{isLanguagesOpen:r,languagesHandler:l,mainScreenRef:t,language:bh.text}),n&&P.jsx($_,{type:"button",onClick:s})]})},{lightGrayColor:pw}=ve,D_=N.div`
   position: relative;
   z-index: 1;
   max-width: 19.16vw;
