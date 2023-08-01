@@ -1022,12 +1022,12 @@ Error generating stack: `+o.message+`
   width: 100%;
   height: 100%;
   ${zt};
-  background-image: url("images/products-and-service/mobile-wallet-L.svg");
+  background-image: url("images/products-and-service/mobile-wallet/background-L.svg");
 
   @media (max-width: ${U}) {
     box-sizing: border-box;
     padding: 0 9vw 4.14vw;
-    background-image: url("images/products-and-service/mobile-wallet-S.svg");
+    background-image: url("images/products-and-service/mobile-wallet/background-S.svg");
     justify-content: end;
     align-items: start;
   }
@@ -1059,7 +1059,7 @@ Error generating stack: `+o.message+`
   @media (max-width: ${U}) {
     margin-right: calc(72vw / 14.4);
   }
-`,yk=()=>{const e=P.jsx(Ph,{src:"images/test/app-store.svg",alt:"app store link"}),t=P.jsx(Ph,{src:"images/test/google-play.svg",alt:"google play link"});return P.jsx(pk,{children:P.jsxs(hk,{children:[P.jsx(Jt,{color:fk,children:Oh.title}),P.jsx(gk,{children:Oh.text}),P.jsxs(mk,{children:[P.jsx(_h,{color:"transparent",href:Nx,target:"_blank",rel:"noopener noreferrer",children:t}),P.jsx(_h,{color:"transparent",href:zx,target:"_blank",rel:"noopener noreferrer",children:e})]})]})})};var mw={},yw={},Yl={},vw={};(function(e){Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0;var t={animating:!1,autoplaying:null,currentDirection:0,currentLeft:null,currentSlide:0,direction:1,dragging:!1,edgeDragged:!1,initialized:!1,lazyLoadedList:[],listHeight:null,listWidth:null,scrolling:!1,slideCount:null,slideHeight:null,slideWidth:null,swipeLeft:null,swiped:!1,swiping:!1,touchObject:{startX:0,startY:0,curX:0,curY:0},trackStyle:{},trackWidth:0,targetSlide:0},n=t;e.default=n})(vw);var vk="Expected a function",kh=0/0,wk="[object Symbol]",Sk=/^\s+|\s+$/g,bk=/^[-+]0x[0-9a-f]+$/i,xk=/^0b[01]+$/i,Ok=/^0o[0-7]+$/i,Pk=parseInt,_k=typeof nt=="object"&&nt&&nt.Object===Object&&nt,kk=typeof self=="object"&&self&&self.Object===Object&&self,Ek=_k||kk||Function("return this")(),Tk=Object.prototype,Ck=Tk.toString,$k=Math.max,Rk=Math.min,Hs=function(){return Ek.Date.now()};function Lk(e,t,n){var r,i,o,a,l,s,f=0,h=!1,y=!1,m=!0;if(typeof e!="function")throw new TypeError(vk);t=Eh(t)||0,Ec(n)&&(h=!!n.leading,y="maxWait"in n,o=y?$k(Eh(n.maxWait)||0,t):o,m="trailing"in n?!!n.trailing:m);function k(b){var p=r,u=i;return r=i=void 0,f=b,a=e.apply(u,p),a}function E(b){return f=b,l=setTimeout(O,t),h?k(b):a}function $(b){var p=b-s,u=b-f,d=t-p;return y?Rk(d,o-u):d}function I(b){var p=b-s,u=b-f;return s===void 0||p>=t||p<0||y&&u>=o}function O(){var b=Hs();if(I(b))return v(b);l=setTimeout(O,$(b))}function v(b){return l=void 0,m&&r?k(b):(r=i=void 0,a)}function S(){l!==void 0&&clearTimeout(l),f=0,r=s=i=l=void 0}function C(){return l===void 0?a:v(Hs())}function x(){var b=Hs(),p=I(b);if(r=arguments,i=this,s=b,p){if(l===void 0)return E(s);if(y)return l=setTimeout(O,t),k(s)}return l===void 0&&(l=setTimeout(O,t)),a}return x.cancel=S,x.flush=C,x}function Ec(e){var t=typeof e;return!!e&&(t=="object"||t=="function")}function jk(e){return!!e&&typeof e=="object"}function Dk(e){return typeof e=="symbol"||jk(e)&&Ck.call(e)==wk}function Eh(e){if(typeof e=="number")return e;if(Dk(e))return kh;if(Ec(e)){var t=typeof e.valueOf=="function"?e.valueOf():e;e=Ec(t)?t+"":t}if(typeof e!="string")return e===0?e:+e;e=e.replace(Sk,"");var n=xk.test(e);return n||Ok.test(e)?Pk(e.slice(2),n?2:8):bk.test(e)?kh:+e}var Mk=Lk,ww={exports:{}};/*!
+`,yk=()=>{const e=P.jsx(Ph,{src:"images/products-and-service/mobile-wallet/app-store.svg",alt:"app store link"}),t=P.jsx(Ph,{src:"images/products-and-service/mobile-wallet/google-play.svg",alt:"google play link"});return P.jsx(pk,{children:P.jsxs(hk,{children:[P.jsx(Jt,{color:fk,children:Oh.title}),P.jsx(gk,{children:Oh.text}),P.jsxs(mk,{children:[P.jsx(_h,{color:"transparent",href:Nx,target:"_blank",rel:"noopener noreferrer",children:t}),P.jsx(_h,{color:"transparent",href:zx,target:"_blank",rel:"noopener noreferrer",children:e})]})]})})};var mw={},yw={},Yl={},vw={};(function(e){Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0;var t={animating:!1,autoplaying:null,currentDirection:0,currentLeft:null,currentSlide:0,direction:1,dragging:!1,edgeDragged:!1,initialized:!1,lazyLoadedList:[],listHeight:null,listWidth:null,scrolling:!1,slideCount:null,slideHeight:null,slideWidth:null,swipeLeft:null,swiped:!1,swiping:!1,touchObject:{startX:0,startY:0,curX:0,curY:0},trackStyle:{},trackWidth:0,targetSlide:0},n=t;e.default=n})(vw);var vk="Expected a function",kh=0/0,wk="[object Symbol]",Sk=/^\s+|\s+$/g,bk=/^[-+]0x[0-9a-f]+$/i,xk=/^0b[01]+$/i,Ok=/^0o[0-7]+$/i,Pk=parseInt,_k=typeof nt=="object"&&nt&&nt.Object===Object&&nt,kk=typeof self=="object"&&self&&self.Object===Object&&self,Ek=_k||kk||Function("return this")(),Tk=Object.prototype,Ck=Tk.toString,$k=Math.max,Rk=Math.min,Hs=function(){return Ek.Date.now()};function Lk(e,t,n){var r,i,o,a,l,s,f=0,h=!1,y=!1,m=!0;if(typeof e!="function")throw new TypeError(vk);t=Eh(t)||0,Ec(n)&&(h=!!n.leading,y="maxWait"in n,o=y?$k(Eh(n.maxWait)||0,t):o,m="trailing"in n?!!n.trailing:m);function k(b){var p=r,u=i;return r=i=void 0,f=b,a=e.apply(u,p),a}function E(b){return f=b,l=setTimeout(O,t),h?k(b):a}function $(b){var p=b-s,u=b-f,d=t-p;return y?Rk(d,o-u):d}function I(b){var p=b-s,u=b-f;return s===void 0||p>=t||p<0||y&&u>=o}function O(){var b=Hs();if(I(b))return v(b);l=setTimeout(O,$(b))}function v(b){return l=void 0,m&&r?k(b):(r=i=void 0,a)}function S(){l!==void 0&&clearTimeout(l),f=0,r=s=i=l=void 0}function C(){return l===void 0?a:v(Hs())}function x(){var b=Hs(),p=I(b);if(r=arguments,i=this,s=b,p){if(l===void 0)return E(s);if(y)return l=setTimeout(O,t),k(s)}return l===void 0&&(l=setTimeout(O,t)),a}return x.cancel=S,x.flush=C,x}function Ec(e){var t=typeof e;return!!e&&(t=="object"||t=="function")}function jk(e){return!!e&&typeof e=="object"}function Dk(e){return typeof e=="symbol"||jk(e)&&Ck.call(e)==wk}function Eh(e){if(typeof e=="number")return e;if(Dk(e))return kh;if(Ec(e)){var t=typeof e.valueOf=="function"?e.valueOf():e;e=Ec(t)?t+"":t}if(typeof e!="string")return e===0?e:+e;e=e.replace(Sk,"");var n=xk.test(e);return n||Ok.test(e)?Pk(e.slice(2),n?2:8):bk.test(e)?kh:+e}var Mk=Lk,ww={exports:{}};/*!
 	Copyright (c) 2018 Jed Watson.
 	Licensed under the MIT License (MIT), see
 	http://jedwatson.github.io/classnames
@@ -1120,7 +1120,7 @@ Error generating stack: `+o.message+`
     margin: 0 auto;
     width: 100%;
   }
-`,qh=({slides:e,size:t})=>{const r={dots:!1,arrows:!1,infinite:!0,slidesToShow:t==="small"?4:11,slidesToScroll:1,swipeToSlide:!0,variableWidth:!0,centerMode:!1,draggable:!0};return P.jsxs(y2,{children:[P.jsx(bd,{}),P.jsx(Co,{...r,children:e.map(i=>P.jsx(m2,{slide:i},i.id))})]})},{whiteColor:Ww,darkGrayColor:v2}=ve,Xs={title:"Available Currencies",text:"A vast range of major coins, stablecoins and liquid tokens is available.",imagesContext:[{text:"Coins",coins:[{id:"1",image:"images/test/bitcoin.svg",alt:"test"},{id:"2",image:"images/test/bitcoin-lightning.svg",alt:"test"},{id:"3",image:"images/test/bitcoin-luquid.svg",alt:"test"},{id:"4",image:"images/test/binance-coin.svg",alt:"test"},{id:"5",image:"images/test/tron.svg",alt:"test"},{id:"6",image:"images/test/polygon.svg",alt:"test"},{id:"7",image:"images/test/stellar.svg",alt:"test"},{id:"8",image:"images/test/EURMTL.svg",alt:"test"},{id:"9",image:"images/test/USDT-ERC20.svg",alt:"test"},{id:"10",image:"images/test/USDT-TRC20.svg",alt:"test"},{id:"11",image:"images/test/USDT-PLG20.svg",alt:"test"},{id:"12",image:"images/test/USDT-LIQUID.svg",alt:"test"},{id:"13",image:"images/test/BUSD-BEP20.svg",alt:"test"}],image:"images/products-and-service/lineOne.svg"}]},w2=N.section`
+`,qh=({slides:e,size:t})=>{const r={dots:!1,arrows:!1,infinite:!0,slidesToShow:t==="small"?4:11,slidesToScroll:1,swipeToSlide:!0,variableWidth:!0,centerMode:!1,draggable:!0};return P.jsxs(y2,{children:[P.jsx(bd,{}),P.jsx(Co,{...r,children:e.map(i=>P.jsx(m2,{slide:i},i.id))})]})},{whiteColor:Ww,darkGrayColor:v2}=ve,Xs={title:"Available Currencies",text:"A vast range of major coins, stablecoins and liquid tokens is available.",imagesContext:[{text:"Coins",coins:[{id:"1",image:"images/products-and-service/available-currencies/bitcoin.svg",alt:"test"},{id:"2",image:"images/products-and-service/available-currencies/bitcoin-lightning.svg",alt:"test"},{id:"3",image:"images/products-and-service/available-currencies/bitcoin-luquid.svg",alt:"test"},{id:"4",image:"images/products-and-service/available-currencies/binance-coin.svg",alt:"test"},{id:"5",image:"images/products-and-service/available-currencies/tron.svg",alt:"test"},{id:"6",image:"images/products-and-service/available-currencies/polygon.svg",alt:"test"},{id:"7",image:"images/products-and-service/available-currencies/stellar.svg",alt:"test"},{id:"8",image:"images/products-and-service/available-currencies/EURMTL.svg",alt:"test"},{id:"9",image:"images/products-and-service/available-currencies/USDT-ERC20.svg",alt:"test"},{id:"10",image:"images/products-and-service/available-currencies/USDT-TRC20.svg",alt:"test"},{id:"11",image:"images/products-and-service/available-currencies/USDT-PLG20.svg",alt:"test"},{id:"12",image:"images/products-and-service/available-currencies/USDT-LIQUID.svg",alt:"test"},{id:"13",image:"images/products-and-service/available-currencies//BUSD-BEP20.svg",alt:"test"}]}]},w2=N.section`
   width: 100vw;
   box-sizing: border-box;
   ${zt};
@@ -1131,7 +1131,7 @@ Error generating stack: `+o.message+`
   flex-direction: column;
   align-items: start;
   justify-content: center;
-  background-image: url("images/products-and-service/available-currencies.svg");
+  background-image: url("images/products-and-service/available-currencies/available-currencies.svg");
   border-radius: 0 0 1.6vw 1.6vw;
 
   @media (max-width: ${U}) {
@@ -1217,7 +1217,7 @@ Error generating stack: `+o.message+`
   align-items: stretch;
   width: 82.25vw;
   ${td};
-  background-image: url("images/products-and-service/item-L.svg");
+  background-image: url("images/products-and-service/slide/background-L.svg");
   border-radius: 30px;
 
   @media (max-width: ${U}) {
@@ -1227,7 +1227,7 @@ Error generating stack: `+o.message+`
     flex-direction: column;
     width: 82.41vw;
     height: 100%;
-    background-image: url("images/products-and-service/item-S.svg");
+    background-image: url("images/products-and-service/slide/background-S.svg");
   }
 `,$2=N.p`
   ${rd};
@@ -1395,7 +1395,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
   width: 37%;
   ${zt};
   height: auto;
-  background-image: url("images/products-and-service/video.svg");
+  background-image: url("images/products-and-service/video-slidervideo.svg");
 
   @media (max-width: ${U}) {
     width: 100%;
@@ -1853,7 +1853,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
   height: 100%;
 `,x$=N.div`
   height: 100%;
-  background-image: url("images/use-cases-of-our-products/mobile-slider/slide-S.svg");
+  background-image: url("images/use-cases-of-our-products/mobile-slider/background-S.svg");
   background-repeat: no-repeat;
   background-size: cover;
 `,O$=({onClick:e})=>P.jsx(S$,{type:"button",className:"arrow next",onClick:e,children:P.jsx(b$,{src:w$,alt:"Next"})}),P$=({slides:e})=>{const t={dots:!1,arrows:!0,infinite:!0,slidesToShow:1,slidesToScroll:1,swipe:!1,variableWidth:!0,centerMode:!1,prevArrow:P.jsx(P.Fragment,{}),nextArrow:P.jsx(O$,{})},r=Object.keys(e).flatMap(i=>e[i].content.map(o=>({button:e[i].button,image:o.image,title:o.title,text:o.text})));return P.jsx(x$,{children:P.jsx(Co,{...t,children:r.map((i,o)=>P.jsx(x0,{button:i.button,image:i.image,title:i.title,text:i.text},o))})})},{whiteColor:Qn,greenColor:_$}=ve,k$=N.div`
