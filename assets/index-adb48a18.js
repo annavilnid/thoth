@@ -1010,7 +1010,7 @@ Error generating stack: `+o.message+`
     flex-direction: column;
   }
 `,hk=N.div`
-  padding-left: 4.5vw;
+  padding-left: 4.28vw;
   box-sizing: border-box;
   position: absolute;
   z-index: 1;
@@ -1126,7 +1126,7 @@ Error generating stack: `+o.message+`
   ${zt};
   background-position: center -9.72vw;
   min-height: calc(800vw / 14.4 - 9.72vw);
-  padding: 8.26vw 1vw 8.26vw 4.93vw;
+  padding: 8.26vw 1vw 8.26vw 4.28vw;
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -1463,7 +1463,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
   ${zt};
   border-radius: 1.6vw 1.6vw 0 0;
   min-height: calc(901vw / 14.4);
-  padding: 4.86vw;
+  padding: 4.28vw;
   box-sizing: border-box;
   width: 100vw;
   display: flex;
@@ -1603,7 +1603,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
 `,XC=()=>P.jsxs(GC,{children:[P.jsx(Jt,{color:YC,children:Sg.title}),P.jsx(KC,{slides:Sg.slides})]}),{lightBlackColor:S0,blackColor:b0,darkGreenColor:QC,whiteColor:JC,greenColor:ZC,lightGreenColor:e$}=ve,Wn={title:"Fees",lineOne:{title:"Incoming Transactions",text:{main:"As low as 0.5%",span:"and going down based on your total transaction volume.",button:"Check pricing details"}},lineTwo:{title:"Outgoing Transactions",text:{main:"Free of charge"}}},t$=N.section`
   box-sizing: border-box;
   width: 100vw;
-  padding: 5.2vw 5vw 6.07vw;
+  padding: 5.2vw 4.28vw 6.07vw;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -2049,7 +2049,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
   flex-direction: row;
   align-items: start;
   justify-content: space-between;
-  padding: 10.9vw 3.54vw;
+  padding: 10.9vw 4.28vw;
 
   @media (max-width: ${U}) {
     flex-direction: column;
@@ -2152,7 +2152,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
   box-sizing: border-box;
   width: 100vw;
   min-height: calc(1015vw / 14.4);
-  padding: 4.86vw;
+  padding: 4.28vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -2220,7 +2220,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
 `,eR=()=>{const e=Xt(),[t,n]=W.useState("One");W.useEffect(()=>{n("One")},[]);const r=o=>{n(o)},i=Object.keys($i);return P.jsxs(P.Fragment,{children:[P.jsxs(K$,{children:[P.jsxs(Y$,{children:[P.jsx(Jt,{color:fl,children:Rg.title}),P.jsx(G$,{color:fl,children:Rg.text}),!e&&P.jsx(X$,{children:i.map(o=>{const l=t===o?J$:Z$;return P.jsx(l,{type:"button",onClick:()=>r(o),children:$i[o].button},o)})})]}),P.jsx(Q$,{children:e?P.jsx(P$,{slides:$i}):$i[t].content.map((o,a)=>P.jsx(x0,{image:o.image,title:o.title,text:o.text},a))})]}),P.jsx(s$,{}),P.jsx(B$,{}),P.jsx(q$,{})]})},{whiteColor:Pn,deepGrayColor:tR}=ve,bt={text:"Our vision is to provide convenience and help increase your sales business.",nav:{about:{title:"About",links:[{name:"How it works",href:"https://example.com/how-it-works"},{name:"Featured",href:"https://example.com/featured"},{name:"Partnership",href:"https://example.com/partnership"},{name:"Business Relation",href:"https://example.com/business-relation"}]},community:{title:"Community",links:[{name:"Events",href:"https://example.com/events"},{name:"Blog",href:"https://example.com/blog"},{name:"Podcast",href:"https://example.com/podcast"},{name:"Invite a friend",href:"https://example.com/invite-friend"}]},socials:{title:"Socials",links:[{name:"Discord",href:"https://example.com/discord"},{name:"Instagram",href:"https://example.com/instagram"},{name:"Twitter",href:"https://example.com/twitter"},{name:"Facebook",href:"https://example.com/facebook"}]}},rights:"Auto Fast. All rights reserved",policy:{name:"Privacy & Policy",href:"https://example.com/privacy-policy"},condition:{name:"Terms & Condition",href:"https://example.com/terms-condition"}},nR=N.footer`
   width: 100vw;
   box-sizing: border-box;
-  padding: 5.55vw 4.17vw 0.5vw 4.17vw;
+  padding: 5.55vw 4.28vw 0.5vw;
   background-color: ${tR};
 
   @media (max-width: ${U}) {
