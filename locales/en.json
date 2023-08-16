@@ -1,7 +1,16 @@
 {
   "welcome": "Welcome to our website!",
   "buttonText": "Switch language",
-
+  "sections": {
+    "one": "How it Works",
+    "two": "Photo",
+    "three": "Products and Services",
+    "four": "Use Cases of Our Products"
+  },
+  "headerLinks": {
+    "signUp": "Register",
+    "signIn": "Log In"
+  },
   "mainScreen": {
     "span": "Digital Assets Processing",
     "button": "Open Account",
