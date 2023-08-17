@@ -83,5 +83,12 @@
   },
   "logo": {
     "alt": "логотип thoth"
+  },
+  "FeedbackWidgets": {
+    "telegram": "иконка telegram",
+    "twitter": "иконка twitter",
+    "facebook": "иконка facebook",
+    "instagram": "иконка instagram",
+    "email": "иконка email icon"
   }
 }

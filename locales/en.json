@@ -83,5 +83,12 @@
   },
   "logo": {
     "alt": "logo thoth"
+  },
+  "FeedbackWidgets": {
+    "telegram": "telegram icon",
+    "twitter": "twitter icon",
+    "facebook": "facebook icon",
+    "instagram": "instagram icon",
+    "email": "email icon"
   }
 }
