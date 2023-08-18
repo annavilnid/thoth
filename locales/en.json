@@ -81,6 +81,11 @@
       "location": "Payment fees"
     }
   },
+  "pageNotFound": {
+    "title": "Page Not Found",
+    "text": "sorry, the page decided to take a little break",
+    "button": "go home"
+  },
   "logo": {
     "alt": "logo thoth"
   },
