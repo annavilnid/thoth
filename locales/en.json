@@ -10,6 +10,7 @@
       "signUp": "Register",
       "signIn": "Log In"
     },
+    "closeIcon": "close icon",
     "language": {
       "alt": "language icon",
       "text": "Language"
@@ -82,7 +83,8 @@
     }
   },
   "pageNotFound": {
-    "title": "Page Not Found",
+    "subtitle": "Page Not Found",
+    "image alt": "not found icon",
     "text": "sorry, the page decided to take a little break",
     "button": "go home"
   },
