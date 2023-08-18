@@ -83,6 +83,10 @@
     }
   },
   "pageNotFound": {
+    "navigation": {
+      "button": "Accept bitcoin payment",
+      "location": "Page Not Found"
+    },
     "subtitle": "Page Not Found",
     "image alt": "not found icon",
     "text": "sorry, the page decided to take a little break",
