@@ -10,7 +10,6 @@
       "signUp": "Регистрация",
       "signIn": "Войти"
     },
-    "closeIcon": "close icon",
     "language": {
       "alt": "иконка языков",
       "text": "Языки"
@@ -18,7 +17,8 @@
     "menu": {
       "alt": "иконка меню",
       "text": "Меню"
-    }
+    },
+    "checkMarkIcon": "check mark icon"
   },
   "mainScreen": {
     "span": "Обработка цифровых активов",
@@ -65,6 +65,13 @@
         "alt": "Бесплатно"
       }
     }
+  },
+  "photos": {
+    "one": "первое фото",
+    "two": "второе фото",
+    "three": "третье фото",
+    "arrowLeft": "стрелка влево",
+    "arrowRight": "стрелка вправо"
   },
   "pagePaymentFees": {
     "title": "Комиссии за платежи",

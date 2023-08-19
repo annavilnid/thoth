@@ -66,6 +66,13 @@
       }
     }
   },
+  "photos": {
+    "one": "photo one",
+    "two": "photo two",
+    "three": "photo three",
+    "arrowLeft": "arrow left",
+    "arrowRight": "arrow right"
+  },
   "pagePaymentFees": {
     "title": "Payment fees",
     "subtitleIndividual": "Individual",
