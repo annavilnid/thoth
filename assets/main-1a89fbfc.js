@@ -2368,6 +2368,11 @@ Praesent efficitur, velit in euismod posuere, purus nisl interdum metus, nec lac
   height: calc(20vw / 14.4);
   cursor: pointer;
   margin-right: calc(5vw / 14.4);
+
+  @media (max-width: ${k}) {
+    width: calc(20vw / 5.09);
+    height: calc(20vw / 5.09);
+  }
 `,YO=({id:e,initialValue:t,ratingData:n})=>{const r=i=>{console.log(i===t?`Отправить запрос на сервер для новости id=${e} поменять rating на 0`:`Отправить запрос на сервер для новости id=${e} поменять rating на ${i}`)};return p.jsx(KO,{children:[1,2,3,4,5].map(i=>p.jsx(QO,{src:i<=t?n.active.src:n.inactive.src,alt:i<=t?n.active.alt:n.inactive.alt,onClick:()=>r(i)},i))})},XO=x.div`
   display: flex;
   gap: 10px;
@@ -2380,7 +2385,7 @@ Praesent efficitur, velit in euismod posuere, purus nisl interdum metus, nec lac
   cursor: pointer;
 `,JO=({selectedNews:e})=>{const t=()=>{const i=encodeURIComponent(e.title+`
 `+e.text),a=`https://telegram.me/share/url?url=${encodeURIComponent(window.location.href)}&text=${i}`;window.open(a,"_blank")},n=()=>{const o=`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(window.location.href)}`;window.open(o,"_blank")},r=()=>{const i=encodeURIComponent(e.title),o=encodeURIComponent(e.title+`
-`+e.text);window.location.href=`mailto:?subject=${i}&body=${o}`};return p.jsxs(XO,{children:[p.jsx(nl,{onClick:t,children:"Share on Telegram"}),p.jsx(nl,{onClick:n,children:"Share on Facebook"}),p.jsx(nl,{onClick:r,children:"Send via Email"})]})},{greenColor:ZO,smallNewsColor:Xv}=ne,eP=x.div`
+`+e.text);window.location.href=`mailto:?subject=${i}&body=${o}`};return p.jsxs(XO,{children:[p.jsx(nl,{onClick:t,children:"Share on Telegram"}),p.jsx(nl,{onClick:n,children:"Share on Facebook"}),p.jsx(nl,{onClick:r,children:"Send via Email"})]})},{blackColor:ZO,greenColor:eP,smallNewsColor:Xv}=ne,tP=x.div`
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -2390,8 +2395,9 @@ Praesent efficitur, velit in euismod posuere, purus nisl interdum metus, nec lac
   @media (max-width: ${k}) {
     flex-direction: column;
     justify-content: center;
+    align-items: center;
   }
-`,tP=x.div`
+`,nP=x.div`
   width: calc(325vw / 14.4);
   box-sizing: border-box;
   margin-bottom: calc(20vw / 14.4);
@@ -2402,7 +2408,7 @@ Praesent efficitur, velit in euismod posuere, purus nisl interdum metus, nec lac
   @media (max-width: ${k}) {
     width: calc(325vw / 5.09);
   }
-`,nP=x.img`
+`,rP=x.img`
   height: ${({size:e})=>e==="big"?"calc(399vw / 14.4)":"calc(154vw / 14.4)"};
   width: ${({size:e})=>e==="big"?"calc(899vw / 14.4)":"calc(325vw / 14.4)"};
   object-fit: cover;
@@ -2412,11 +2418,11 @@ Praesent efficitur, velit in euismod posuere, purus nisl interdum metus, nec lac
     height: ${({size:e})=>e==="big"?"calc(184vw / 5.08)":"calc(148vw / 5.08)"};
     width: ${({size:e})=>e==="big"?"calc(414vw / 5.08)":"calc(333vw / 5.08)"};
   }
-`,rP=x(Gt)`
+`,iP=x(Gt)`
   width: 100%;
   margin-bottom: calc(15vw / 14.4);
   ${({size:e})=>e==="big"?`${Ar}`:`${xt}`};
-  color: ${({size:e})=>e==="big"?`${blackColor}`:`${Xv}`};
+  color: ${({size:e})=>e==="big"?`${ZO}`:`${Xv}`};
   font-size: ${({size:e})=>e==="big"?"calc(50vw / 14.4)":"calc(28vw / 14.4)"};
   line-height: 1.2;
   letter-spacing: -0.7px;
@@ -2427,7 +2433,7 @@ Praesent efficitur, velit in euismod posuere, purus nisl interdum metus, nec lac
     font-size: ${({size:e})=>e==="big"?"calc(30vw / 5.09)":"calc(23vw / 5.09)"};
     letter-spacing: -0.6px;
   }
-`,iP=x.div`
+`,oP=x.div`
   width: 100%;
   margin: ${({size:e})=>e==="big"?"2vw 0 0.71vw":"1vw 0 1vw"};
   display: flex;
@@ -2450,15 +2456,15 @@ Praesent efficitur, velit in euismod posuere, purus nisl interdum metus, nec lac
   @media (max-width: ${k}) {
     font-size: calc(25vw / 5.09);
   }
-`,oP=x(Jv)`
+`,aP=x(Jv)`
   padding-right: 3vw;
-  color: ${ZO};
+  color: ${eP};
   font-size: calc(25vw / 14.4);
 
   @media (max-width: ${k}) {
     font-size: calc(25vw / 5.09);
   }
-`,aP=x(Jv)`
+`,sP=x(Jv)`
   padding-top: 0.5vw;
   color: ${Xv};
   font-size: calc(15vw / 14.4);
@@ -2466,7 +2472,7 @@ Praesent efficitur, velit in euismod posuere, purus nisl interdum metus, nec lac
   @media (max-width: ${k}) {
     font-size: calc(15vw / 5.09);
   }
-`,sP=({news:e})=>{const t=Dr(),n=r=>{t(`/news/${r}`)};return p.jsx(eP,{children:e.map(r=>p.jsxs(tP,{onClick:()=>n(r.id),children:[p.jsx(nP,{size:"small",src:r.url,alt:r.title}),p.jsxs(iP,{size:"small",children:[p.jsx(oP,{children:r.span}),p.jsx(aP,{children:r.date})]}),p.jsx(rP,{size:"small",children:r.title})]},r.id))})},{smallNewsColor:nd,largeNewsColor:lP,blackColor:uP,lineNewsColor:cP}=ne,dP=x.div`
+`,lP=({news:e})=>{const t=Dr(),n=r=>{t(`/news/${r}`)};return p.jsx(tP,{children:e.map(r=>p.jsxs(nP,{onClick:()=>n(r.id),children:[p.jsx(rP,{size:"small",src:r.url,alt:r.title}),p.jsxs(oP,{size:"small",children:[p.jsx(aP,{children:r.span}),p.jsx(sP,{children:r.date})]}),p.jsx(iP,{size:"small",children:r.title})]},r.id))})},{smallNewsColor:nd,largeNewsColor:uP,blackColor:cP,lineNewsColor:dP}=ne,fP=x.div`
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
@@ -2477,7 +2483,7 @@ Praesent efficitur, velit in euismod posuere, purus nisl interdum metus, nec lac
     flex-direction: column;
     justify-content: center;
   }
-`,fP=x.div`
+`,pP=x.div`
   padding: 2.78vw 3vw 2.78vw 0;
   display: flex;
   flex-direction: column;
@@ -2489,9 +2495,9 @@ Praesent efficitur, velit in euismod posuere, purus nisl interdum metus, nec lac
     align-items: center;
     justify-content: start;
   }
-`,pP=x.div`
+`,hP=x.div`
   padding: 2.78vw 0 2.78vw 3vw;
-  border-left: 2px solid ${cP};
+  border-left: 2px solid ${dP};
   box-sizing: border-box;
   width: calc(450vw / 14.4);
   display: flex;
@@ -2503,7 +2509,7 @@ Praesent efficitur, velit in euismod posuere, purus nisl interdum metus, nec lac
     width: 100%;
     align-items: center;
   }
-`,hP=x.img`
+`,gP=x.img`
   height: ${({size:e})=>e==="big"?"calc(399vw / 14.4)":"calc(154vw / 14.4)"};
   width: ${({size:e})=>e==="big"?"calc(899vw / 14.4)":"calc(325vw / 14.4)"};
   object-fit: cover;
@@ -2525,7 +2531,7 @@ Praesent efficitur, velit in euismod posuere, purus nisl interdum metus, nec lac
   @media (max-width: ${k}) {
     font-size: calc(25vw / 5.09);
   }
-`,gP=x(rd)`
+`,mP=x(rd)`
   padding-top: 0.5vw;
   color: ${nd};
   font-size: calc(15vw / 14.4);
@@ -2533,19 +2539,19 @@ Praesent efficitur, velit in euismod posuere, purus nisl interdum metus, nec lac
   @media (max-width: ${k}) {
     font-size: calc(15vw / 5.09);
   }
-`,mP=x(rd)`
+`,vP=x(rd)`
   margin-top: calc(29vw / 14.4);
-  color: ${lP};
+  color: ${uP};
   font-size: calc(20vw / 14.4);
 
   @media (max-width: ${k}) {
     font-size: calc(20vw / 5.09);
   }
-`,vP=x(Gt)`
+`,yP=x(Gt)`
   width: 100%;
   margin-bottom: calc(15vw / 14.4);
   ${({size:e})=>e==="big"?`${Ar}`:`${xt}`};
-  color: ${({size:e})=>e==="big"?`${uP}`:`${nd}`};
+  color: ${({size:e})=>e==="big"?`${cP}`:`${nd}`};
   font-size: ${({size:e})=>e==="big"?"calc(50vw / 14.4)":"calc(28vw / 14.4)"};
   line-height: 1.2;
   letter-spacing: -0.7px;
@@ -2556,7 +2562,7 @@ Praesent efficitur, velit in euismod posuere, purus nisl interdum metus, nec lac
     font-size: ${({size:e})=>e==="big"?"calc(30vw / 5.09)":"calc(23vw / 5.09)"};
     letter-spacing: -0.6px;
   }
-`,yP=x.div`
+`,wP=x.div`
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -2566,29 +2572,34 @@ Praesent efficitur, velit in euismod posuere, purus nisl interdum metus, nec lac
   @media (max-width: ${k}) {
     width: 82%;
   }
-`,wP=x.div`
+`,xP=x.div`
   width: calc(660vw / 14.4);
 
   @media (max-width: ${k}) {
     width: calc(320vw / 5.09);
   }
-`,xP=x.div`
+`,SP=x.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 20vw;
+
+  @media (max-width: ${k}) {
+    width: 50vw;
+  }
 `,Gp=x.div`
   display: flex;
   justify-content: center;
-  align-items: stretch;
+  align-items: end;
 `,Kp=x(rd)`
   padding-left: 0.5vw;
   color: ${nd};
   font-size: calc(15vw / 14.4);
-  line-height: 1.2;
+  line-height: 1;
 
   @media (max-width: ${k}) {
     font-size: calc(15vw / 5.09);
+    padding-left: 1vw;
   }
 `,Qp=x.img`
   width: auto;
@@ -2598,8 +2609,8 @@ Praesent efficitur, velit in euismod posuere, purus nisl interdum metus, nec lac
     width: auto;
     height: calc(16vw / 5.09);
   }
-`,SP=()=>{const{t:e}=ut(),t=St("News",e),{rating:n}=t,{id:r}=vx();j.useEffect(()=>{console.log(`добавить просмотр новости с ${r}`)},[r]);const i=Cu.find(u=>u.id===r);if(!i)return p.jsx(Dv,{});const o=Cu.filter(u=>u.id!==r),a=i.text.split(" ").length,l=Math.ceil(a/250);return p.jsxs(dP,{children:[p.jsxs(fP,{children:[p.jsx(hP,{size:"big",src:i.url,alt:i.title}),p.jsxs(yP,{children:[p.jsx(gP,{children:i.date}),p.jsxs(wP,{children:[p.jsx(vP,{size:"big",children:i.title}),p.jsxs(xP,{children:[p.jsx(YO,{id:i.id,initialValue:i.rating,ratingData:n}),p.jsxs(Gp,{children:[p.jsx(Qp,{src:t.views.src,alt:t.views.alt}),p.jsx(Kp,{children:i.views})]}),p.jsxs(Gp,{children:[p.jsx(Qp,{src:t.time.src,alt:t.time.alt}),p.jsxs(Kp,{children:[l," ",t.time.text]})]})]}),p.jsx(mP,{children:i.text})]})]})]}),p.jsxs(pP,{children:[p.jsx(JO,{selectedNews:i}),p.jsx(sP,{news:o})]})]})},bP=x.div`
+`,bP=()=>{const{t:e}=ut(),t=St("News",e),{rating:n}=t,{id:r}=vx();j.useEffect(()=>{console.log(`добавить просмотр новости с ${r}`)},[r]);const i=Cu.find(u=>u.id===r);if(!i)return p.jsx(Dv,{});const o=Cu.filter(u=>u.id!==r),a=i.text.split(" ").length,l=Math.ceil(a/250);return p.jsxs(fP,{children:[p.jsxs(pP,{children:[p.jsx(gP,{size:"big",src:i.url,alt:i.title}),p.jsxs(wP,{children:[p.jsx(mP,{children:i.date}),p.jsxs(xP,{children:[p.jsx(yP,{size:"big",children:i.title}),p.jsxs(SP,{children:[p.jsx(YO,{id:i.id,initialValue:i.rating,ratingData:n}),p.jsxs(Gp,{children:[p.jsx(Qp,{src:t.views.src,alt:t.views.alt}),p.jsx(Kp,{children:i.views})]}),p.jsxs(Gp,{children:[p.jsx(Qp,{src:t.time.src,alt:t.time.alt}),p.jsxs(Kp,{children:[l," ",t.time.text]})]})]}),p.jsx(vP,{children:i.text})]})]})]}),p.jsxs(hP,{children:[p.jsx(JO,{selectedNews:i}),p.jsx(lP,{news:o})]})]})},kP=x.div`
   max-height: ${({$isBurgerMenuOpen:e,$containerHeight:t,$headerHeight:n,$isLanguagesOpen:r})=>(e||r)&&t<window.innerHeight?`calc(${window.innerHeight}px - ${n}px)`:(e||r)&&t>=window.innerHeight?`${t}px`:"auto"};
   overflow: ${({$isBurgerMenuOpen:e,$isLanguagesOpen:t})=>e||t?"clip":"auto"};
-`,kP=()=>{const e=j.useRef(null),t=j.useRef(null),n=j.useRef(null),r=j.useRef(null),[i,o]=j.useState(null),[a,s]=j.useState(null),[l,u]=j.useState(0),[c,d]=j.useState(0),[f,y]=j.useState(0),[v,w]=j.useState(0),{t:C}=ut(),g=St("Sections",C);j.useEffect(()=>{document.documentElement.lang=Oe.language},[]),j.useEffect(()=>{const b=()=>{if(e.current){const $=e.current.clientHeight;u($)}};return b(),window.addEventListener("resize",b),()=>{window.removeEventListener("resize",b)}},[e,a,i]),j.useEffect(()=>{const b=()=>{if(t.current){const $=t.current.clientHeight;d($)}};return b(),window.addEventListener("resize",b),()=>{window.removeEventListener("resize",b),d(0)}},[t,a,i]),j.useEffect(()=>{const b=()=>{if(n.current){const $=n.current.clientHeight;y($)}};return b(),window.addEventListener("resize",b),()=>{window.removeEventListener("resize",b),y(0)}},[n,a,i]),j.useEffect(()=>{const b=()=>{if(r.current){const $=r.current.clientHeight;w($)}};return b(),window.addEventListener("resize",b),()=>{window.removeEventListener("resize",b),w(0)}},[r,a,i]);const h=()=>{setTimeout(()=>{window.scrollTo({top:0,behavior:"smooth"})},300)},m=()=>{o(!i),a&&S(),i||h()},S=()=>{s(!a),a||h()};return p.jsx(Rx,{basename:"/thoth/",children:p.jsxs(H1,{i18n:Oe,children:[p.jsx(nC,{}),p.jsx(RO,{ref:e,headerHeight:l,isLanguagesOpen:i,isBurgerMenuOpen:a,languagesHandler:m,burgerMenuHandler:S,containerHeight:c||f||v,paymentFeesHeight:f,sections:g}),p.jsx(bP,{className:"styled-container",$isBurgerMenuOpen:a,$containerHeight:c||f||v,$isLanguagesOpen:i,$headerHeight:l}),p.jsxs(Tx,{children:[p.jsx(Kn,{path:"/",element:p.jsx(R$,{mainScreenRef:t,sections:g})}),p.jsx(Kn,{path:"/payment-fees",element:p.jsx(tC,{ref:n})}),p.jsx(Kn,{path:"/faq",element:p.jsx(GO,{})}),p.jsx(Kn,{path:"/news/:id",element:p.jsx(SP,{})}),p.jsx(Kn,{path:"*",element:p.jsx(Dv,{ref:r})})]}),p.jsx(VO,{})]})})};rl.createRoot(document.getElementById("root")).render(p.jsx(j.StrictMode,{children:p.jsx(kP,{})}));
-//# sourceMappingURL=main-b62b97d6.js.map
+`,$P=()=>{const e=j.useRef(null),t=j.useRef(null),n=j.useRef(null),r=j.useRef(null),[i,o]=j.useState(null),[a,s]=j.useState(null),[l,u]=j.useState(0),[c,d]=j.useState(0),[f,y]=j.useState(0),[v,w]=j.useState(0),{t:C}=ut(),g=St("Sections",C);j.useEffect(()=>{document.documentElement.lang=Oe.language},[]),j.useEffect(()=>{const b=()=>{if(e.current){const $=e.current.clientHeight;u($)}};return b(),window.addEventListener("resize",b),()=>{window.removeEventListener("resize",b)}},[e,a,i]),j.useEffect(()=>{const b=()=>{if(t.current){const $=t.current.clientHeight;d($)}};return b(),window.addEventListener("resize",b),()=>{window.removeEventListener("resize",b),d(0)}},[t,a,i]),j.useEffect(()=>{const b=()=>{if(n.current){const $=n.current.clientHeight;y($)}};return b(),window.addEventListener("resize",b),()=>{window.removeEventListener("resize",b),y(0)}},[n,a,i]),j.useEffect(()=>{const b=()=>{if(r.current){const $=r.current.clientHeight;w($)}};return b(),window.addEventListener("resize",b),()=>{window.removeEventListener("resize",b),w(0)}},[r,a,i]);const h=()=>{setTimeout(()=>{window.scrollTo({top:0,behavior:"smooth"})},300)},m=()=>{o(!i),a&&S(),i||h()},S=()=>{s(!a),a||h()};return p.jsx(Rx,{basename:"/thoth/",children:p.jsxs(H1,{i18n:Oe,children:[p.jsx(nC,{}),p.jsx(RO,{ref:e,headerHeight:l,isLanguagesOpen:i,isBurgerMenuOpen:a,languagesHandler:m,burgerMenuHandler:S,containerHeight:c||f||v,paymentFeesHeight:f,sections:g}),p.jsx(kP,{className:"styled-container",$isBurgerMenuOpen:a,$containerHeight:c||f||v,$isLanguagesOpen:i,$headerHeight:l}),p.jsxs(Tx,{children:[p.jsx(Kn,{path:"/",element:p.jsx(R$,{mainScreenRef:t,sections:g})}),p.jsx(Kn,{path:"/payment-fees",element:p.jsx(tC,{ref:n})}),p.jsx(Kn,{path:"/faq",element:p.jsx(GO,{})}),p.jsx(Kn,{path:"/news/:id",element:p.jsx(bP,{})}),p.jsx(Kn,{path:"*",element:p.jsx(Dv,{ref:r})})]}),p.jsx(VO,{})]})})};rl.createRoot(document.getElementById("root")).render(p.jsx(j.StrictMode,{children:p.jsx($P,{})}));
+//# sourceMappingURL=main-1a89fbfc.js.map
