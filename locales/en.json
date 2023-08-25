@@ -1,7 +1,7 @@
 {
   "sections": {
     "one": "How it Works",
-    "two": "Photo",
+    "two": "FAQ",
     "three": "Products and Services",
     "four": "Use Cases of Our Products"
   },
@@ -66,12 +66,150 @@
       }
     }
   },
-  "photos": {
-    "one": "photo one",
-    "two": "photo two",
-    "three": "photo three",
-    "arrowLeft": "arrow left",
-    "arrowRight": "arrow right"
+  "sectionProductAndService": {
+    "text": "Product Description THOTH",
+    "slideOne": {
+      "subtitle": "Merchants Solution",
+      "textContent": "The solution for businesses to accept crypto payments in any coins and automatically exchange it all into desired stable or currency.",
+      "alt": "Merchants Solution"
+    },
+    "slideTwo": {
+      "subtitle": "Enterprise Blockchain Wallets",
+      "textContent": "We deploy infrastructure to provide coins self-custody for enterprise needs.",
+      "alt": "Enterprise Blockchain Wallets"
+    },
+    "slideThree": {
+      "subtitle": "Wallet App",
+      "textContent": "Download Android or iOS application to instantly get access to your account.",
+      "alt": "Wallet App"
+    },
+    "slideFour": {
+      "subtitle": "API",
+      "textContent": "Automate acceptance in your web store, CRM or application with our feature full API.",
+      "link": "Read more",
+      "alt": "API"
+    },
+    "mobileWallet": {
+      "title": "Mobile Wallet",
+      "text": "A solution enabling businesses to accept crypto payments in all major coins and exchange it all into Fiat, Coins or StableCoins.",
+      "googlePlayAlt": "google play link",
+      "appleStoreAlt": "apple store link"
+    },
+    "availableCurrencies": {
+      "title": "Available Currencies",
+      "text": "A vast range of major coins, stablecoins and liquid tokens is available.",
+      "subtitle": "Coins",
+      "bitcoinAlt": "Bitcoin icon",
+      "bitcoinLightningAlt": "Bitcoin lightning icon",
+      "bitcoinLiquidAlt": "Bitcoin liquid icon",
+      "binanceCoinAlt": "Binance coin icon",
+      "tronAlt": "Tron icon",
+      "polygonAlt": "Polygon icon",
+      "stellarAlt": "Stellar icon",
+      "EurmtlAlt": "EURMTL icon",
+      "UsdtErc20Alt": "USDT ERC20 icon",
+      "UsdtTrc20Alt": "USDT TRC20 icon",
+      "UsdtPlg20Alt": "USDT PLG20 icon",
+      "UsdtLiquidAlt": "USDT LIQUID icon",
+      "BusdBep20Alt": "BUSD BEP20 icon"
+    }
+  },
+  "sectionUseCasesOfOurProducts": {
+    "text": "Product Description THOTH",
+    "subtitle": "Merchants Solution",
+    "slideOne": {
+      "alt": "FOREX & CFD Brokers",
+      "title": "FOREX & CFD Brokers",
+      "text": "Attract new clients by offering them a way to top up their accounts with many different cryptocurrencies."
+    },
+    "slideTwo": {
+      "alt": "E-commerce",
+      "title": "E-commerce",
+      "text": "The world of e-commerce has experienced massive growth. Reap the benefits of the huge online market by accepting crypto payments."
+    },
+    "slideThree": {
+      "alt": "Marketplaces",
+      "title": "Marketplaces",
+      "text": "There are many platforms used by businesses to sell their products or services. Offering crypto payments to customers is now the advantage."
+    },
+    "slideFour": {
+      "alt": "Travel Industry",
+      "title": "Travel Industry",
+      "text": "The travel industry is a growing sector. With increasing bookings now made online, it makes financial sense to accept crypto payments."
+    },
+    "slideFive": {
+      "alt": "Gambling",
+      "title": "Gambling",
+      "text": "The global online gambling industry is worth billions of dollars. Crypto payments are part for the course."
+    },
+    "slideSix": {
+      "alt": "FOREX & CFD Brokers",
+      "title": "FOREX & CFD Brokers",
+      "text": "Attract new clients by offering them a way to top up their accounts with many different cryptocurrencies."
+    },
+    "photoSlideArrowRightAlt": "arrow right",
+    "fees": {
+      "title": "Fees",
+      "lineOne": {
+        "title": "Incoming Transactions",
+        "text": {
+          "main": "As low as 0.5%",
+          "span": "and going down based on your total transaction volume.",
+          "button": "Check pricing details"
+        }
+      },
+      "lineTwo": {
+        "title": "Outgoing Transactions",
+        "text": {
+          "main": "Free of charge"
+        }
+      }
+    },
+    "news": {
+      "title": "News",
+      "link": "Read more"
+    },
+    "questions": {
+      "title": "Have a question?",
+      "text": "Explore our solutions or you can contact us through ticket system and contact form. Feel free to get in touch.",
+      "existing": {
+        "alt": "existing client",
+        "title": "For existing clients",
+        "text": "If you already have an account please use our ticket system.",
+        "linkName": "Get 24\\7 Support"
+      },
+      "new": {
+        "alt": "new client",
+        "title": "For new clients or partners",
+        "text": "Please leave your inquiry and our Business Development Team will contact you shortly.",
+        "linkName": "Contact BD Team"
+      }
+    }
+  },
+  "footer": {
+    "text": "Our vision is to provide convenience and help increase your sales business.",
+    "navTitleOne": "Socials",
+    "rights": "Auto Fast. All rights reserved",
+    "policy": "Privacy & Policy",
+    "condition": "Terms & Condition"
+  },
+  "pageNews": {
+    "navigation": {
+      "button": "Accept bitcoin payment",
+      "location": "News"
+    },
+    "time": {
+      "text": "min",
+      "alt": "time reading icon"
+    },
+    "share": {
+      "title": "Share this article",
+      "twitterAlt": "twitter icon",
+      "facebookAlt": "facebook icon",
+      "emailAlt": "email icon",
+      "chainAlt": "chain icon"
+    },
+    "title": "News"
   },
   "pagePaymentFees": {
     "title": "Payment fees",
