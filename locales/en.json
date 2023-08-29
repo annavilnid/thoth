@@ -31,7 +31,7 @@
     "stepOne": {
       "alt": "Send invoice icon",
       "subtitle": "Send invoice",
-      "text": "Merchant issues an invoice in their local currency"
+      "text": "Merchant issues an invoice in their local currency."
     },
     "stepTwo": {
       "alt": "Payment icon",
