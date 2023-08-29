@@ -211,7 +211,7 @@ Error generating stack: `+i.message+`
     position: absolute;
     top: 0;
     left: 1.5vw;
-    width: 100vw;
+    width: 98.5vw;
     height: 100%;
     background-image: url(${xo.coinsL});
     ${Wa};
@@ -1344,6 +1344,8 @@ Error generating stack: `+i.message+`
     font-size: calc(25vw / 5.09);
   }
 `,xO=E.img`
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0.5;
   height: ${({size:e})=>e==="big"?"calc(268vw / 14.4)":"calc(154vw / 14.4)"};
   width: ${({size:e})=>e==="big"?"calc(696vw / 14.4)":"calc(413vw / 14.4)"};
   object-fit: cover;
@@ -2450,7 +2452,7 @@ Praesent efficitur, velit in euismod posuere, purus nisl interdum metus, nec lac
   }
 `,nXe=E(Xb)`
   width: 100%;
-`,rXe=({onSearch:e,search:t})=>{const n=async(o,i)=>{e(o.inputValue),i.setSubmitting(!1),await i.resetForm()},r=()=>{console.log("Здесь бы релультаты поиска показать")};return y.jsx(UQe,{initialValues:{inputValue:""},onSubmit:n,children:({values:o})=>y.jsx(nXe,{children:y.jsxs(JQe,{children:[y.jsx(tXe,{onClick:r,type:"submit",disabled:!o.inputValue,children:y.jsx(eXe,{src:t.image.src,alt:t.image.alt})}),y.jsx(ZQe,{id:"search",type:"text",name:"inputValue",placeholder:t.placeholder})]})})})},{lightBlackColor:Jb,mediumGreenColor:oXe,inputColor:iXe,largeNewsColor:sXe,darkGreenColor:aXe}=ge,cXe=E.main`
+`,rXe=({onSearch:e,search:t})=>{const n=async(o,i)=>{e(o.inputValue),i.setSubmitting(!1),await i.resetForm()},r=()=>{console.log("Здесь бы релультаты поиска показать")};return y.jsx(UQe,{initialValues:{inputValue:""},onSubmit:n,children:({values:o})=>y.jsx(nXe,{children:y.jsxs(JQe,{children:[y.jsx(tXe,{onClick:r,type:"submit",disabled:!o.inputValue,"aria-label":t.image.alt,children:y.jsx(eXe,{src:t.image.src,alt:t.image.alt})}),y.jsx(ZQe,{id:"search",type:"text",name:"inputValue",placeholder:t.placeholder})]})})})},{lightBlackColor:Jb,mediumGreenColor:oXe,inputColor:iXe,largeNewsColor:sXe,darkGreenColor:aXe}=ge,cXe=E.main`
   margin-bottom: 7vw;
   min-height: 90vh;
 `,lXe=E(Wt)`
@@ -2613,6 +2615,8 @@ Praesent efficitur, velit in euismod posuere, purus nisl interdum metus, nec lac
     margin-bottom: 5vw;
   }
 `,CXe=E.img`
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0.5;
   height: ${({size:e})=>e==="big"?"calc(399vw / 14.4)":"calc(154vw / 14.4)"};
   width: ${({size:e})=>e==="big"?"calc(899vw / 14.4)":"calc(325vw / 14.4)"};
   object-fit: cover;
@@ -2716,6 +2720,8 @@ Praesent efficitur, velit in euismod posuere, purus nisl interdum metus, nec lac
     align-items: center;
   }
 `,zXe=E.img`
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0.5;
   height: ${({size:e})=>e==="big"?"calc(399vw / 14.4)":"calc(154vw / 14.4)"};
   width: ${({size:e})=>e==="big"?"calc(880vw / 14.4)":"calc(325vw / 14.4)"};
   object-fit: cover;
@@ -2824,4 +2830,4 @@ Praesent efficitur, velit in euismod posuere, purus nisl interdum metus, nec lac
   max-height: ${({$isBurgerMenuOpen:e,$containerHeight:t,$headerHeight:n,$isLanguagesOpen:r})=>(e||r)&&t<window.innerHeight?`calc(${window.innerHeight}px - ${n}px)`:(e||r)&&t>=window.innerHeight?`${t}px`:"auto"};
   overflow: ${({$isBurgerMenuOpen:e,$isLanguagesOpen:t})=>e||t?"clip":"auto"};
 `,ZXe=()=>{const e=R.useRef(null),t=R.useRef(null),n=R.useRef(null),r=R.useRef(null),o=R.useRef(null),i=R.useRef(null),[s,a]=R.useState(null),[c,l]=R.useState(null),[p,h]=R.useState(0),[d,v]=R.useState(0),[w,b]=R.useState(0),[T,f]=R.useState(0),[m,$]=R.useState(0),[_,C]=R.useState(0),{t:L}=Ct(),A=Vt("Sections",L);R.useEffect(()=>{document.documentElement.lang=Je.language},[]),R.useEffect(()=>{const B=()=>{if(e.current){const Y=e.current.clientHeight;h(Y)}};return B(),window.addEventListener("resize",B),()=>{window.removeEventListener("resize",B)}},[e,c,s]),R.useEffect(()=>{const B=()=>{if(t.current){const Y=t.current.clientHeight;v(Y)}};return B(),window.addEventListener("resize",B),()=>{window.removeEventListener("resize",B),v(0)}},[t,c,s]),R.useEffect(()=>{const B=()=>{if(n.current){const Y=n.current.clientHeight;b(Y)}};return B(),window.addEventListener("resize",B),()=>{window.removeEventListener("resize",B),b(0)}},[n,c,s]),R.useEffect(()=>{const B=()=>{if(r.current){const Y=r.current.clientHeight;f(Y)}};return B(),window.addEventListener("resize",B),()=>{window.removeEventListener("resize",B),f(0)}},[r,c,s]),R.useEffect(()=>{const B=()=>{if(o.current){const Y=o.current.clientHeight;$(Y)}};return B(),window.addEventListener("resize",B),()=>{window.removeEventListener("resize",B),$(0)}},[o,c,s]),R.useEffect(()=>{const B=()=>{if(i.current){const Y=i.current.clientHeight;C(Y)}};return B(),window.addEventListener("resize",B),()=>{window.removeEventListener("resize",B),C(0)}},[i,c,s]);const N=()=>{setTimeout(()=>{window.scrollTo({top:0,behavior:"smooth"})},300)},M=()=>{a(!s),c&&z(),s||N()},z=()=>{l(!c),c||N()};return y.jsx(Ik,{basename:`${V}/`,children:y.jsxs(W_,{i18n:Je,children:[y.jsx(dA,{}),y.jsx(UR,{ref:e,headerHeight:p,isLanguagesOpen:s,isBurgerMenuOpen:c,languagesHandler:M,burgerMenuHandler:z,containerHeight:d||w||T||m||_,paymentFeesHeight:w,sections:A}),y.jsxs(JXe,{className:"styled-container",$isBurgerMenuOpen:c,$containerHeight:d||w||T||m||_,$isLanguagesOpen:s,$headerHeight:p,children:[y.jsxs(Dk,{children:[y.jsx(ao,{path:"/",element:y.jsx(UO,{mainScreenRef:t,sections:A})}),y.jsx(ao,{path:"/payment-fees",element:y.jsx(uA,{ref:n})}),y.jsx(ao,{path:"/news/:id",element:y.jsx(XXe,{ref:o})}),y.jsx(ao,{path:"/faq",element:y.jsx(mXe,{ref:i})}),y.jsx(ao,{path:"*",element:y.jsx(Z0,{ref:r})})]}),y.jsx(nP,{})]})]})})};Tu.createRoot(document.getElementById("root")).render(y.jsx(R.StrictMode,{children:y.jsx(ZXe,{})}))});export default eJe();
-//# sourceMappingURL=main-3f57b5be.js.map
+//# sourceMappingURL=main-ea83dac1.js.map
