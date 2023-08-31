@@ -2468,6 +2468,7 @@ Praesent efficitur, velit in euismod posuere, purus nisl interdum metus, nec lac
 `,oXe=E(Xb)`
   width: 100%;
 `,iXe=({onSearch:e,search:t})=>{const n=async(o,i)=>{e(o.inputValue),i.setSubmitting(!1),await i.resetForm()},r=()=>{console.log("Здесь бы релультаты поиска показать")};return y.jsx(HQe,{initialValues:{inputValue:""},onSubmit:n,children:({values:o})=>y.jsx(oXe,{children:y.jsxs(eXe,{children:[y.jsx(rXe,{onClick:r,type:"submit",disabled:!o.inputValue,"aria-label":t.image.alt,children:y.jsx(nXe,{src:t.image.src,alt:t.image.alt})}),y.jsx(tXe,{id:"search",type:"text",name:"inputValue",placeholder:t.placeholder})]})})})},{lightBlackColor:Jb,mediumGreenColor:sXe,inputColor:aXe,largeNewsColor:cXe,darkGreenColor:lXe}=ge,uXe=E.main`
+  width: 100%;
   margin-bottom: 7vw;
   min-height: 90vh;
 `,dXe=E(Wt)`
@@ -2842,4 +2843,4 @@ Praesent efficitur, velit in euismod posuere, purus nisl interdum metus, nec lac
     height: calc(16vw / 5.09);
   }
 `,ZXe=()=>{const{t:e}=Tt(),t=Vt("News",e),{navigation:n,share:r,title:o,time:i}=t,{id:s}=b_(),a=Gd.find(d=>d.id===s);if(q.useEffect(()=>{a&&console.log(`добавить просмотр новости с ${s}`)},[s,a]),!a)return y.jsx(Z0,{});const c=Gd.filter(d=>d.id!==s),l=a.text.split(" ").length,p=Math.ceil(l/250);return y.jsxs(FXe,{children:[y.jsx(Uc,{navigation:n}),y.jsxs(MXe,{children:[y.jsxs(zXe,{children:[y.jsx(BXe,{size:"big",src:a.url,alt:a.title}),y.jsxs(GXe,{children:[y.jsx(HXe,{children:a.date}),y.jsxs(KXe,{children:[y.jsx(WXe,{size:"big",children:a.title}),y.jsx(YXe,{children:y.jsxs(QXe,{children:[y.jsx(JXe,{src:i.src,alt:i.alt}),y.jsxs(XXe,{children:[p," ",t.time.text]})]})}),y.jsx(VXe,{children:a.text})]})]})]}),y.jsxs(UXe,{children:[y.jsx(EXe,{selectedNews:a,share:r}),y.jsx(NXe,{news:c,title:o})]})]})]})},eJe=()=>{const{t:e}=Tt(),t=Vt("Sections",e);return q.useEffect(()=>{document.documentElement.lang=Je.language},[]),y.jsx(j_,{basename:`${H}/`,children:y.jsxs(VE,{i18n:Je,children:[y.jsx(dA,{}),y.jsx(HP,{sections:t}),y.jsxs(N_,{children:[y.jsx(ao,{path:"/",element:y.jsx(UO,{sections:t})}),y.jsx(ao,{path:"/payment-fees",element:y.jsx(uA,{})}),y.jsx(ao,{path:"/news/:id",element:y.jsx(ZXe,{})}),y.jsx(ao,{path:"/faq",element:y.jsx(yXe,{})}),y.jsx(ao,{path:"*",element:y.jsx(Z0,{})})]}),y.jsx(oR,{})]})})};ku.createRoot(document.getElementById("root")).render(y.jsx(q.StrictMode,{children:y.jsx(eJe,{})}))});export default tJe();
-//# sourceMappingURL=main-9d81a502.js.map
+//# sourceMappingURL=main-e53ca046.js.map
