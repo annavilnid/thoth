@@ -1344,8 +1344,7 @@ Error generating stack: `+i.message+`
     font-size: calc(25vw / 5.09);
   }
 `,xO=E.img`
-  background-color: rgba(0, 0, 0, 0.5);
-  opacity: 0.5;
+  background-color: rgba(0, 0, 0, 0.2);
   height: ${({size:e})=>e==="big"?"calc(268vw / 14.4)":"calc(154vw / 14.4)"};
   width: ${({size:e})=>e==="big"?"calc(696vw / 14.4)":"calc(413vw / 14.4)"};
   object-fit: cover;
@@ -2631,8 +2630,7 @@ Praesent efficitur, velit in euismod posuere, purus nisl interdum metus, nec lac
     margin-bottom: 5vw;
   }
 `,OXe=E.img`
-  background-color: rgba(0, 0, 0, 0.5);
-  opacity: 0.5;
+  background-color: rgba(0, 0, 0, 0.2);
   height: ${({size:e})=>e==="big"?"calc(399vw / 14.4)":"calc(154vw / 14.4)"};
   width: ${({size:e})=>e==="big"?"calc(899vw / 14.4)":"calc(325vw / 14.4)"};
   object-fit: cover;
@@ -2736,8 +2734,7 @@ Praesent efficitur, velit in euismod posuere, purus nisl interdum metus, nec lac
     align-items: center;
   }
 `,BXe=E.img`
-  background-color: rgba(0, 0, 0, 0.5);
-  opacity: 0.5;
+  background-color: rgba(0, 0, 0, 0.2);
   height: ${({size:e})=>e==="big"?"calc(399vw / 14.4)":"calc(154vw / 14.4)"};
   width: ${({size:e})=>e==="big"?"calc(880vw / 14.4)":"calc(325vw / 14.4)"};
   object-fit: cover;
@@ -2843,4 +2840,4 @@ Praesent efficitur, velit in euismod posuere, purus nisl interdum metus, nec lac
     height: calc(16vw / 5.09);
   }
 `,ZXe=()=>{const{t:e}=Tt(),t=Vt("News",e),{navigation:n,share:r,title:o,time:i}=t,{id:s}=b_(),a=Gd.find(d=>d.id===s);if(q.useEffect(()=>{a&&console.log(`добавить просмотр новости с ${s}`)},[s,a]),!a)return y.jsx(Z0,{});const c=Gd.filter(d=>d.id!==s),l=a.text.split(" ").length,p=Math.ceil(l/250);return y.jsxs(FXe,{children:[y.jsx(Uc,{navigation:n}),y.jsxs(MXe,{children:[y.jsxs(zXe,{children:[y.jsx(BXe,{size:"big",src:a.url,alt:a.title}),y.jsxs(GXe,{children:[y.jsx(HXe,{children:a.date}),y.jsxs(KXe,{children:[y.jsx(WXe,{size:"big",children:a.title}),y.jsx(YXe,{children:y.jsxs(QXe,{children:[y.jsx(JXe,{src:i.src,alt:i.alt}),y.jsxs(XXe,{children:[p," ",t.time.text]})]})}),y.jsx(VXe,{children:a.text})]})]})]}),y.jsxs(UXe,{children:[y.jsx(EXe,{selectedNews:a,share:r}),y.jsx(NXe,{news:c,title:o})]})]})]})},eJe=()=>{const{t:e}=Tt(),t=Vt("Sections",e);return q.useEffect(()=>{document.documentElement.lang=Je.language},[]),y.jsx(j_,{basename:`${H}/`,children:y.jsxs(VE,{i18n:Je,children:[y.jsx(dA,{}),y.jsx(HP,{sections:t}),y.jsxs(N_,{children:[y.jsx(ao,{path:"/",element:y.jsx(UO,{sections:t})}),y.jsx(ao,{path:"/payment-fees",element:y.jsx(uA,{})}),y.jsx(ao,{path:"/news/:id",element:y.jsx(ZXe,{})}),y.jsx(ao,{path:"/faq",element:y.jsx(yXe,{})}),y.jsx(ao,{path:"*",element:y.jsx(Z0,{})})]}),y.jsx(oR,{})]})})};ku.createRoot(document.getElementById("root")).render(y.jsx(q.StrictMode,{children:y.jsx(eJe,{})}))});export default tJe();
-//# sourceMappingURL=main-e53ca046.js.map
+//# sourceMappingURL=main-1eb52e5f.js.map
