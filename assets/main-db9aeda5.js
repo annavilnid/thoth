@@ -265,7 +265,7 @@ Error generating stack: `+i.message+`
   }
 `,LC=E.div`
   box-sizing: border-box;
-  margin: 10.47vw 0 2vw;
+  margin: 10.47vw 0 2vw 5vw;
   width: 45%;
   position: relative;
   z-index: 1;
@@ -325,7 +325,7 @@ Error generating stack: `+i.message+`
   }
 `,RC=E.p`
   ${le};
-  margin: 1.5vw 4vw 1.5vw 0;
+  margin: 1.5vw 0 1.5vw;
   ${xe};
   min-height: 5.5vw;
   font-size: calc(25vw / 14.4);
@@ -2839,4 +2839,4 @@ Praesent efficitur, velit in euismod posuere, purus nisl interdum metus, nec lac
     height: calc(16vw / 5.09);
   }
 `,ZXe=()=>{const{t:e}=Tt(),t=Vt("News",e),{navigation:n,share:r,title:o,time:i}=t,{id:s}=S_(),a=Gd.find(d=>d.id===s);if(q.useEffect(()=>{a&&console.log(`добавить просмотр новости с ${s}`)},[s,a]),!a)return v.jsx(t$,{});const c=Gd.filter(d=>d.id!==s),l=a.text.split(" ").length,p=Math.ceil(l/250);return v.jsxs(FXe,{children:[v.jsx(Bc,{navigation:n}),v.jsxs(MXe,{children:[v.jsxs(zXe,{children:[v.jsx(BXe,{size:"big",src:a.url,alt:a.title}),v.jsxs(GXe,{children:[v.jsx(HXe,{children:a.date}),v.jsxs(KXe,{children:[v.jsx(WXe,{size:"big",children:a.title}),v.jsx(YXe,{children:v.jsxs(QXe,{children:[v.jsx(JXe,{src:i.src,alt:i.alt}),v.jsxs(XXe,{children:[p," ",t.time.text]})]})}),v.jsx(VXe,{children:a.text})]})]})]}),v.jsxs(UXe,{children:[v.jsx(EXe,{selectedNews:a,share:r}),v.jsx(NXe,{news:c,title:o})]})]})]})},eJe=()=>{const{t:e}=Tt(),t=Vt("Sections",e);return q.useEffect(()=>{document.documentElement.lang=Je.language},[]),v.jsx(F_,{basename:`${B}/`,children:v.jsxs(GE,{i18n:Je,children:[v.jsx(pA,{}),v.jsx(WP,{sections:t}),v.jsxs(j_,{children:[v.jsx(ao,{path:"/",element:v.jsx(HO,{sections:t})}),v.jsx(ao,{path:"/payment-fees",element:v.jsx(fA,{})}),v.jsx(ao,{path:"/news/:id",element:v.jsx(ZXe,{})}),v.jsx(ao,{path:"/faq",element:v.jsx(yXe,{})}),v.jsx(ao,{path:"*",element:v.jsx(t$,{})})]}),v.jsx(sR,{})]})})};ku.createRoot(document.getElementById("root")).render(v.jsx(q.StrictMode,{children:v.jsx(eJe,{})}))});export default tJe();
-//# sourceMappingURL=main-48e2e45a.js.map
+//# sourceMappingURL=main-db9aeda5.js.map
