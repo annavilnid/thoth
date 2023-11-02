@@ -183,14 +183,18 @@
   },
   "footer": {
     "text": "Our vision is to provide convenience and help increase your sales business.",
-    "navTitleOne": "Socials",
+    "navTitleSocials": "Socials",
+    "settings": {
+      "navTitleSettings": "Settings",
+      "accountDeletion": "Account deletion"
+    },
     "rights": "Auto Fast. All rights reserved",
     "policy": "Privacy & Policy",
     "condition": "Terms & Condition"
   },
   "pageNews": {
     "navigation": {
-      "button": "Accept bitcoin payment",
+      "button": "Main page",
       "location": "News"
     },
     "time": {
@@ -218,14 +222,14 @@
     "fiatBankOut": "Fiat Bank Out",
     "depositFeeSpan": "Deposit Fee Span",
     "navigation": {
-      "button": "Accept bitcoin payment",
+      "button": "Main page",
       "location": "Payment fees"
     }
   },
   "pageFaq": {
     "title": "FAQ",
     "navigation": {
-      "button": "Accept bitcoin payment",
+      "button": "Main page",
       "location": "FAQ"
     },
     "search": {
@@ -265,21 +269,21 @@
   },
   "pageDeleteAccount": {
     "title": "How to delete an account",
-    "navigation": {
-      "button": "Accept bitcoin payment",
-      "location": "Delete account"
-    },
     "description": "The steps below outline the process for irreversibly deleting your account from the Thothpay service. Ensure you have withdrawn all funds before proceeding.",
     "steps": {
-      "one": "Have your Lightning wallet ready, the one you used to sign in to the system.",
-      "two": "Visit [this page](thothpay.com/merchant/delete) and log in as usual.",
-      "three": "Input the confirmation statement in the designated field and click on \"Yes, delete me.\"",
-      "four": "If all goes well, you'll be redirected to the main page."
+      "stepOne": "Have your Lightning wallet ready, the one you used to sign in to the system.",
+      "stepTwo": "Visit [this page](thothpay.com/merchant/delete) and log in as usual.",
+      "stepThree": "Input the confirmation statement in the designated field and click on \"Yes, delete me.\"",
+      "stepFour": "If all goes well, you'll be redirected to the main page."
+    },
+    "navigation": {
+      "button": "Main page",
+      "location": "Delete account"
     }
   },
   "pageNotFound": {
     "navigation": {
-      "button": "Accept bitcoin payment",
+      "button": "Main page",
       "location": "Page Not Found"
     },
     "subtitle": "Page Not Found",
